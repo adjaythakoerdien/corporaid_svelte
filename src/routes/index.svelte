@@ -2,8 +2,9 @@
 @import "index.css";
 </style>
 
-<script>
+<script lanbg="ts">
     import pijl from '../icons/arrow_up.png';
+    import Intro from '$lib/intro-section.svelte';
 </script>
 
 
@@ -39,17 +40,17 @@
             </div>
             <div class="hero-container col s12 m4">
 
-                <div class="hero-title hero-text white-text right">
+                <h1 class="hero-title hero-text white-text right">
                     FRESH FINANCE PERSPECTIVE
-                </div>
+                </h1>
 
-                <div class="hero-subtitle hero-text right">
+                <h2 class="hero-subtitle hero-text right">
                     Op zoek naar interim controller of CFO professionals?
                     Wij brengen je finance naar
                     <span class="the-next-level">
                         the next level
                     </span>
-                </div>
+                </h2>
                 <div class="right" style="width:400px;">
                     <div>
                         <a href="#" class="hero-button right hero-text waves-effect waves-light btn z-depth-0 deep-orange accent-2">NEEM DIRECT CONTACT OP</a>
@@ -71,3 +72,8 @@
         </div>
     </section>
 </main>
+
+
+<Intro />
+
+
