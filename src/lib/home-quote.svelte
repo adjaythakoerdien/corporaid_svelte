@@ -5,11 +5,11 @@
 <section class="quote-section white-text">
     <article class="container quote-container center">
         <div>
-            <i class="material-icons">star</i>
-            <i class="material-icons">star</i>
-            <i class="material-icons">star</i>
-            <i class="material-icons">star</i>
-            <i class="material-icons">star</i>
+            <i class="material-icons white-text"  style="font-size:20px;">star</i>
+            <i class="material-icons white-text"  style="font-size:20px;">star</i>
+            <i class="material-icons white-text"  style="font-size:20px;">star</i>
+            <i class="material-icons white-text"  style="font-size:20px;">star</i>
+            <i class="material-icons white-text"  style="font-size:20px;">star</i>
         </div>
         <p class="quote-text">
             Hier kan een een super leuke quote komen van een tevreden klant die op een leuke wijze zijn of haar

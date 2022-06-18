@@ -22,7 +22,11 @@
                     liggen om de effectiviteit te vergroten. Met een beperkte investering verkrijg jij de inzichten die
                     je nodig hebt om de groei en toekomstbestendigheid van je bedrijf te realiseren.
                 </p>
-                <a href="#" class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2">
+                <a
+                    href="#"
+                    class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2"
+                    style="border-radius:34px;"
+                >
                     Bekijk Diensten
                 </a>
             </div>

@@ -3,7 +3,7 @@
 </style>
 
 <section>
-    <article class="container center">
+    <article class="container center" style="margin-top: 120px;">
         <h1>
             Wat biedt Corpor<span class="h1-span">Aid</span>?
         </h1>
@@ -23,7 +23,7 @@
         <div class="row">
 
             <div class="column-container col s12 l4">
-                <div class="column-logo"><i class="column-icon material-icons">euro</i></div>
+                <div class="column-logo"><i class="column-icon material-icons" style="font-size:50px;margin-bottom:20px;font-weight:200">euro</i></div>
                 <div class="column-title">Fresh Finance Perspective</div>
                 <div class="column-text">
                     De visie, doelen en ambities bepalen we door een uitgebreide analyse van de
@@ -39,7 +39,7 @@
             </div>
 
             <div class="column-container col s12 l4">
-                <div class="column-logo"><i class="column-icon material-icons">people</i></div>
+                <div class="column-logo"><i class="column-icon material-icons" style="font-size:50px;margin-bottom:20px;font-weight:200">people</i></div>
                 <div class="column-title">Interim Controller / part time CFO</div>
                 <div class="column-text">
                     Tijdelijk je finance team versterken?
@@ -55,7 +55,7 @@
             </div>
 
             <div class="column-container col s12 l4">
-                <div class="column-logo"><i class="column-icon material-icons">event</i></div>
+                <div class="column-logo"><i class="column-icon material-icons" style="font-size:50px;margin-bottom:20px;font-weight:200">event</i></div>
                 <div class="column-title">Project Management</div>
                 <div class="column-text">
                     Wil jij succesvol zijn, en blijven? Dan moet je als bedrijf inventief, vooruitstrevend en relevant zijn;

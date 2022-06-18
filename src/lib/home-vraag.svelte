@@ -14,14 +14,14 @@
             <div class="col m2"></div>
             <div class="col s12 m3 home-vraag-telephone">
                 <a href="#telephone">
-                    <i class="material-icons">phone</i>
+                    <i class="material-icons" style="font-size:50px;">phone</i>
                 </a>
                 <p>06-1234 5678</p>
             </div>
             <div class="col m2"></div>
             <div class="col s12 m3">
                 <a href="#mail">
-                    <i class="material-icons">mail</i>
+                    <i class="material-icons" style="font-size:50px;">mail</i>
                 </a>
                 <p>info@corporaid.nl</p>
             </div>
