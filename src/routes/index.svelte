@@ -7,6 +7,7 @@
     import Intro from '$lib/intro-section.svelte';
     import OnzeDiensten from '$lib/home-onze-diensten.svelte';
     import Carousel from '$lib/home-carousel.svelte';
+    import Quote from '$lib/home-quote.svelte';
 </script>
 
 
@@ -81,3 +82,5 @@
 <OnzeDiensten />
 
 <Carousel />
+
+<Quote />
