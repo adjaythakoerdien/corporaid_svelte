@@ -6,6 +6,7 @@
     import pijl from '../icons/arrow_up.png';
     import Intro from '$lib/intro-section.svelte';
     import OnzeDiensten from '$lib/home-onze-diensten.svelte';
+    import Carousel from '$lib/home-carousel.svelte';
 </script>
 
 
@@ -78,3 +79,5 @@
 <Intro />
 
 <OnzeDiensten />
+
+<Carousel />

@@ -1,3 +1,7 @@
+body,html {
+    font-family: 'Mulish';
+}
+
 .hero-section {
     border-top: 3px solid #323E66;
 }
