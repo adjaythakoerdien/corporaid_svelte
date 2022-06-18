@@ -5,6 +5,7 @@
 <script lanbg="ts">
     import pijl from '../icons/arrow_up.png';
     import Intro from '$lib/intro-section.svelte';
+    import OnzeDiensten from '$lib/home-onze-diensten.svelte';
 </script>
 
 
@@ -76,4 +77,4 @@
 
 <Intro />
 
-
+<OnzeDiensten />

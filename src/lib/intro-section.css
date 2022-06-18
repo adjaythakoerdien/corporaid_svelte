@@ -6,10 +6,16 @@ h1 {
     line-height: 60px;
     margin-top: 120px;
 }
+@media only screen and (max-width: 600px) {
+    h1  {
+        margin-top: 300px;
+    }
+}
 
 .h1-span {
     color: #566BB2;
 }
+
 .intro-subtitle {
     font-family: 'Mulish';
     font-style: normal;
@@ -17,11 +23,11 @@ h1 {
     font-size: 18px;
     line-height: 29px;
     margin-top: 30px;
+    margin-bottom: 90px;
 }
 
 .column-container {
     margin-top: 30px;
-    /*margin-bottom: 85px;*/
 }
 
 .column-icon {
@@ -49,6 +55,11 @@ h1 {
 }
 
 .column-button {
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
     border-radius: 34px;
+}
+
+.button-row {
+    margin-bottom: 90px;
 }

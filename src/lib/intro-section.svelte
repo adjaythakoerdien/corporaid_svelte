@@ -72,23 +72,23 @@
 
         </div>
 
-        <div class="row">
+        <div class="row button-row">
             <div class="col s4">
-                <div class="column-button hide-on-med-and-down">
+                <div class="column-button-bottom hide-on-med-and-down">
                     <a href="#" class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2">
                         NEEM CONTACT OP
                     </a>
                 </div>
             </div>
             <div class="col s4">
-                <div class="column-button hide-on-med-and-down">
+                <div class="column-button-bottom hide-on-med-and-down">
                     <a href="#" class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2">
                         NEEM CONTACT OP
                     </a>
                 </div>
             </div>
             <div class="col s4">
-                <div class="column-button hide-on-med-and-down">
+                <div class="column-button-bottom hide-on-med-and-down">
                     <a href="#" class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2">
                         NEEM CONTACT OP
                     </a>

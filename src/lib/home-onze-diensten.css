@@ -1,0 +1,50 @@
+.section-onze-diensten {
+    width: 100%;
+    background-color: #323E66;
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+
+.home-onze-diensten-title {
+    margin-bottom: 30px;
+}
+
+.home-onze-diensten-text {
+    /*font-family: 'Mulish';*/
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 28px;
+    /* or 27px */
+
+    letter-spacing: -0.02em;
+}
+
+.home-onze-diensten-text.beneden {
+    margin-bottom: 30px;
+}
+
+.home-onze-diensten-image {
+    background-color: lemonchiffon;
+    border-radius: 3px;
+    height: 500px;
+    background-image: url("../images/home-onze-diensten.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .home-onze-diensten-image {
+        height: 600px;
+        /*margin: 50px;*/
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .home-onze-diensten-image {
+        height: 400px;
+        margin: 0px;
+    }
+}
