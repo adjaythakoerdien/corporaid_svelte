@@ -8,6 +8,8 @@
     import OnzeDiensten from '$lib/home-onze-diensten.svelte';
     import Carousel from '$lib/home-carousel.svelte';
     import Quote from '$lib/home-quote.svelte';
+    import Vraag from '$lib/home-vraag.svelte';
+    import Footer from '$lib/layout/footer.svelte';
 </script>
 
 
@@ -84,3 +86,7 @@
 <Carousel />
 
 <Quote />
+
+<Vraag />
+
+<Footer />

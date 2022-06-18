@@ -45,6 +45,12 @@ h1 {
     height: 80px;
 }
 
+@media only screen and (max-width: 600px) {
+    .column-title {
+        height: 60px;
+    }
+}
+
 .column-text {
     font-family: 'Mulish';
     font-style: normal;
@@ -55,7 +61,7 @@ h1 {
 }
 
 .column-button {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 40px;
     border-radius: 34px;
 }
