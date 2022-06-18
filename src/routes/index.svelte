@@ -10,6 +10,12 @@
     import Quote from '$lib/home-quote.svelte';
     import Vraag from '$lib/home-vraag.svelte';
     import Footer from '$lib/layout/footer.svelte';
+
+    import sgMail from '@sendgrid/mail';
+
+    function submitForm() {
+      fetch("/api/sendmail");
+    }
 </script>
 
 
@@ -82,8 +88,12 @@
     </section>
 </main>
 
+<form on:submit|preventDefault={submitForm}>
+    <button type="submit">Stuur email</button>
+</form>
 
 <Intro />
+
 
 <OnzeDiensten />
 
