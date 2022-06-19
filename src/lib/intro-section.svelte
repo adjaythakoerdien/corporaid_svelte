@@ -33,7 +33,7 @@
                 </div>
                 <div class="column-button hide-on-large-only">
                     <a href="/contact" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2" style="border-radius:34px;">
-                        NEEM DIRECT CONTACT OP
+                        Bekijk diensten
                     </a>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                 </div>
                 <div class="column-button hide-on-large-only">
                     <a href="/contact" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2" style="border-radius:34px;">
-                        NEEM DIRECT CONTACT OP
+                        Bekijk diensten
                     </a>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="column-button hide-on-large-only">
                     <a href="/contact" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2" style="border-radius:34px;">
-                        NEEM DIRECT CONTACT OP
+                        Bekijk diensten
                     </a>
                 </div>
             </div>
@@ -76,21 +76,21 @@
             <div class="col s4">
                 <div class="column-button-bottom hide-on-med-and-down">
                     <a href="/contact" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2" style="border-radius:34px;">
-                        NEEM CONTACT OP
+                        Bekijk diensten
                     </a>
                 </div>
             </div>
             <div class="col s4">
                 <div class="column-button-bottom hide-on-med-and-down">
                     <a href="/contact" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2" style="border-radius:34px;">
-                        NEEM CONTACT OP
+                        Bekijk diensten
                     </a>
                 </div>
             </div>
             <div class="col s4">
                 <div class="column-button-bottom hide-on-med-and-down">
                     <a href="/contact" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2" style="border-radius:34px;">
-                        NEEM CONTACT OP
+                        Bekijk diensten
                     </a>
                 </div>
             </div>

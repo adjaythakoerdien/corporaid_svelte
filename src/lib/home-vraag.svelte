@@ -11,20 +11,24 @@
             kan kiezen.
         </p>
         <div class="row home-vraag-icons">
-            <div class="col m2"></div>
-            <div class="col s12 m3 home-vraag-telephone">
-                <a href="#telephone">
-                    <i class="material-icons" style="font-size:50px;">phone</i>
+                <a href="tel:+31612345678">
+                    <div class="col s12 m4 home-vraag-telephone hoverable">
+                            <i class="material-icons" style="font-size:50px;">phone</i>
+                        <p>06-1234 5678</p>
+                    </div>
                 </a>
-                <p>06-1234 5678</p>
-            </div>
-            <div class="col m2"></div>
-            <div class="col s12 m3">
-                <a href="#mail">
-                    <i class="material-icons" style="font-size:50px;">mail</i>
+                <a href="mailto:info@corporaid.fake">
+                    <div class="col s12 m4 hoverable">
+                        <i class="material-icons" style="font-size:50px;">mail</i>
+                        <p>info@corporaid.nl</p>
+                    </div>
                 </a>
-                <p>info@corporaid.nl</p>
-            </div>
+                <a href="/contact">
+                    <div class="col s12 m4 hoverable">
+                        <i class="material-icons" style="font-size:50px;">contact_page</i>
+                        <p>Contact pagina</p>
+                    </div>
+                </a>
             <div class="col m2"></div>
         </div>
     </article>

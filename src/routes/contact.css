@@ -1,3 +1,24 @@
+.sidenav-title {
+    padding-bottom:20px;
+}
+
+.sidenav-logo {
+    color: #566BB2;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .brand-logo {
+        margin-left: 10%;
+    }
+
+
+
+    .header-links {
+        margin-right: 10%;
+    }
+}
+
 .form-container {
     border-top: 3px solid #323E66;
     padding-top: 60px;

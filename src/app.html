@@ -21,6 +21,9 @@
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<title>CorporAid</title>
 	</head>
+	<style>
+
+	</style>
 	<body>
 
 <!--	Header -->
@@ -30,9 +33,9 @@
 			<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons" style="color:#323E66;">menu</i></a>
 
 			<ul id="nav-mobile" class="right hide-on-med-and-down header-links">
-				<li><a href="#" class="black-text">Over ons</a></li>
-				<li><a href="#" class="black-text">Onze diensten</a></li>
-				<li><a href="#" class="black-text">Klant cases</a></li>
+				<li><a href="/" class="black-text">Over ons</a></li>
+				<li><a href="/" class="black-text">Onze diensten</a></li>
+<!--				<li><a href="#" class="black-text">Klant cases</a></li>-->
 				<li><a href="/contact" class="waves-effect waves-light btn hoverable deep-orange accent-2" style="border-radius:34px;">Contact</a></li>
 			</ul>
 		</div>
@@ -43,9 +46,9 @@
 			<a href="#name"><h3 class="white-text sidenav-title">Corpor<span class="sidenav-logo">Aid</span></h3></a>
 		</div>
 		</li>
-		<li><a href="#" class="black-text">Over ons</a></li>
-		<li><a href="#" class="black-text">Onze diensten</a></li>
-		<li><a href="#" class="black-text">Klant cases</a></li>
+		<li><a href="/" class="black-text sidenav-close">Over ons</a></li>
+		<li><a href="/" class="black-text sidenav-close">Onze diensten</a></li>
+<!--		<li><a href="/" class="black-text sidenav-close">Klant cases</a></li>-->
 		<li><a href="/contact" class="waves-effect waves-light btn hoverable deep-orange accent-2 sidenav-close" style="border-radius:34px;">Contact</a></li>
 	</ul>
 <!--	End header -->
@@ -56,5 +59,6 @@
 			const slide_menu = document.querySelectorAll('.sidenav');
 			M.Sidenav.init(slide_menu,{});
 		</script>
+
 	</body>
 </html>

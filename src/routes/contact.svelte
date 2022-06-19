@@ -9,6 +9,7 @@
   let firstName: string = '';
   let lastName: string = '';
   let email: string = '';
+  let onderwerp: string = '';
   let text: string = '';
 
 
@@ -20,14 +21,12 @@
     firstName = e.target[0].value;
     lastName = e.target[1].value;
     email = e.target[2].value;
-    text = e.target[3].value;
-    console.log(firstName);
-    console.log(lastName);
-    console.log(email);
-    console.log(text);
+    onderwerp = e.target[3].value;
+    text = e.target[4].value;
     alert('Hier komt een mooie popup met een tekst dat de email succesvol is verstuurd naar:\n\n'
     + firstName + ' ' + lastName + '\n'
-    + email + '\n\n**********\n\n' + text
+    + email + '\n**********\n' + onderwerp
+        + '\n\n' + text
     )
   }
 
@@ -69,8 +68,15 @@
 
                     <div class="row">
                         <div class="input-field col s12">
+                            <input id="onderwerp" type="text" class="validate" required>
+                            <label for="onderwerp">Onderwerp</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
                             <textarea id="textarea1" class="materialize-textarea" required></textarea>
-                            <label for="textarea1">Textarea</label>
+                            <label for="textarea1">Stel hier je vraag</label>
                         </div>
                     </div>
 
