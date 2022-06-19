@@ -21,7 +21,7 @@
     // }
 </script>
 
-<Header />
+<!--<Header />-->
 
 <!--<SideBar />-->
 <!--<button on:click={() => sidebar_show = !sidebar_show}>Toggle Sidebar</button>-->
