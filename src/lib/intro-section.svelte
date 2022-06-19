@@ -32,7 +32,7 @@
                     Benieuwd naar wij jou kunnen helpen?
                 </div>
                 <div class="column-button hide-on-large-only">
-                    <a href="#" class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2" style="border-radius:34px;">
+                    <a href="#" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2" style="border-radius:34px;">
                         NEEM DIRECT CONTACT OP
                     </a>
                 </div>
@@ -48,7 +48,7 @@
                     Benieuwd naar hoe wij dat doen?
                 </div>
                 <div class="column-button hide-on-large-only">
-                    <a href="#" class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2" style="border-radius:34px;">
+                    <a href="#" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2" style="border-radius:34px;">
                         NEEM DIRECT CONTACT OP
                     </a>
                 </div>
@@ -64,7 +64,7 @@
                     Vrijblijvend kennis maken?
                 </div>
                 <div class="column-button hide-on-large-only">
-                    <a href="#" class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2" style="border-radius:34px;">
+                    <a href="#" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2" style="border-radius:34px;">
                         NEEM DIRECT CONTACT OP
                     </a>
                 </div>
@@ -75,21 +75,21 @@
         <div class="row button-row">
             <div class="col s4">
                 <div class="column-button-bottom hide-on-med-and-down">
-                    <a href="#" class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2">
+                    <a href="#" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2">
                         NEEM CONTACT OP
                     </a>
                 </div>
             </div>
             <div class="col s4">
                 <div class="column-button-bottom hide-on-med-and-down">
-                    <a href="#" class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2">
+                    <a href="#" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2">
                         NEEM CONTACT OP
                     </a>
                 </div>
             </div>
             <div class="col s4">
                 <div class="column-button-bottom hide-on-med-and-down">
-                    <a href="#" class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2">
+                    <a href="#" class="column-button waves-effect waves-light btn hoverable deep-orange accent-2">
                         NEEM CONTACT OP
                     </a>
                 </div>

@@ -24,7 +24,7 @@
                 </p>
                 <a
                     href="#"
-                    class="column-button waves-effect waves-light btn z-depth-0 deep-orange accent-2"
+                    class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
                     style="border-radius:34px;"
                 >
                     Bekijk Diensten
