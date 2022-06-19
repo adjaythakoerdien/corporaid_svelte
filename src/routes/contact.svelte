@@ -36,7 +36,7 @@
 
 <Header />
 
-<section>
+<section class="form-section">
     <article class="form-container">
         <div class="row container">
                 <form

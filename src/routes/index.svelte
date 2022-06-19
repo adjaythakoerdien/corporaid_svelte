@@ -13,6 +13,8 @@
     import Footer from '$lib/layout/footer.svelte';
 
     import sgMail from '@sendgrid/mail';
+    import SideBar from '$lib/layout/sidenav.svelte';
+    let sidebar_show = false;
 
     // function submitForm() {
     //   fetch("/api/sendmail");
@@ -20,6 +22,9 @@
 </script>
 
 <Header />
+
+<!--<SideBar />-->
+<!--<button on:click={() => sidebar_show = !sidebar_show}>Toggle Sidebar</button>-->
 
 <main style="height:722px;width:100%;background-color:#323E66;">
     <section class="hero-section">
