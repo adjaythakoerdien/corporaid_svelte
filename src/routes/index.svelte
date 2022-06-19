@@ -42,7 +42,7 @@
                 </h2>
                 <div class="right" style="width:400px;">
                     <div class="">
-                        <a href="#" class="hero-button right hero-text waves-effect waves-light btn deep-orange accent-2 hoverable" style="border-radius:34px;">NEEM DIRECT CONTACT OP</a>
+                        <a href="/contact" class="hero-button right hero-text waves-effect waves-light btn deep-orange accent-2 hoverable" style="border-radius:34px;">NEEM DIRECT CONTACT OP</a>
                     </div>
 
                     <div class="right white-text hero-button-subtext arrow">
