@@ -1,5 +1,5 @@
 import sgMail from "@sendgrid/mail";
-sgMail.setApiKey('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');
+sgMail.setApiKey(import.meta.env.VITE_SENDGRID);
 
 export async function get(page: any) {
     const msg = {
