@@ -1,0 +1,18 @@
+.services-finance-image {
+    background-color: lemonchiffon;
+    border-radius: 8px;
+    height: 500px;
+    background-image: url("../assets/finance.webp");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    /*margin-left: 50px;*/
+}
+
+@media only screen and (max-width: 992px) {
+    .services-finance-image {
+        height:300px;
+    }
+}
+
+

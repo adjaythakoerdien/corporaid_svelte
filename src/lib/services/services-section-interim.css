@@ -1,0 +1,18 @@
+.services-interim-image {
+    background-color: lemonchiffon;
+    border-radius: 8px;
+    height: 500px;
+    background-image: url("../assets/suit.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*margin-left: 50px;*/
+}
+
+@media only screen and (max-width: 992px) {
+    .services-interim-image {
+        height:300px;
+    }
+}
+
+

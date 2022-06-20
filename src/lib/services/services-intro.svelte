@@ -2,7 +2,7 @@
     @import 'services-intro.css';
 </style>
 
-<section class="services-section">
+<section class="services-section intro">
     <article class="container center">
         <h1>Corpor<span class="h1-span">Aid</span></h1>
         <p class="services-intro-text">

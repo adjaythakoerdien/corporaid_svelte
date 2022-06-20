@@ -18,7 +18,7 @@
                     </div>
                 </a>
                 <a href="mailto:info@corporaid.fake">
-                    <div class="col s12 m4 hoverable">
+                    <div class="col s12 m4 home-vraag-email hoverable">
                         <i class="material-icons" style="font-size:50px;">mail</i>
                         <p>info@corporaid.nl</p>
                     </div>
