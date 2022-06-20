@@ -1,0 +1,18 @@
+.sidenav-title {
+    padding-bottom:20px;
+}
+
+.sidenav-logo {
+    color: #566BB2;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .brand-logo {
+        margin-left: 10%;
+    }
+
+    .header-links {
+        margin-right: 10%;
+    }
+}

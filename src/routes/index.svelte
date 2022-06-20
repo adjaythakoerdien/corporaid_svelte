@@ -5,26 +5,16 @@
 <script lanbg="ts">
   import Header from '$lib/layout/header.svelte';
     import pijl from '../icons/arrow_up.png';
-    import Intro from '$lib/intro-section.svelte';
-    import OnzeDiensten from '$lib/home-onze-diensten.svelte';
-    import Carousel from '$lib/home-carousel.svelte';
-    import Quote from '$lib/home-quote.svelte';
-    import Vraag from '$lib/home-vraag.svelte';
+    import Intro from '$lib/home/intro-section.svelte';
+    import OnzeDiensten from '$lib/home/home-onze-diensten.svelte';
+    import Carousel from '$lib/home/home-carousel.svelte';
+    import Quote from '$lib/home/home-quote.svelte';
+    import Vraag from '$lib/home/home-vraag.svelte';
     import Footer from '$lib/layout/footer.svelte';
 
-    import sgMail from '@sendgrid/mail';
-    import SideBar from '$lib/layout/sidenav.svelte';
-    let sidebar_show = false;
 
-    // function submitForm() {
-    //   fetch("/api/sendmail");
-    // }
 </script>
 
-<!--<Header />-->
-
-<!--<SideBar />-->
-<!--<button on:click={() => sidebar_show = !sidebar_show}>Toggle Sidebar</button>-->
 
 <main style="height:722px;width:100%;background-color:#323E66;">
     <section class="hero-section">
