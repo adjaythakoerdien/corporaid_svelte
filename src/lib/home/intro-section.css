@@ -16,8 +16,6 @@ h1 {
 }
 
 .intro-subtitle {
-    font-family: 'Mulish';
-    font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 29px;
@@ -50,8 +48,6 @@ h1 {
 }
 
 .column-text {
-    font-family: 'Mulish';
-    font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 150%;

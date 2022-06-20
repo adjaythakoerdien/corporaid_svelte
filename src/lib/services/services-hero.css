@@ -1,0 +1,31 @@
+.services-section {
+    width: 100%;
+}
+
+.services-section.hero {
+    height: 400px;
+    background-image: url('../../images/diensten-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-color: #323E66;;
+}
+
+.onze-diensten-hero {
+    color: white;
+}
+
+.onze-diensten-hero.title {
+    margin-top:0px;
+    padding-top:60px;
+}
+
+.onze-diensten-hero.subtitle {
+    max-width: 400px;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 163.15%;
+}
+
+.services-hero-button {
+    margin-top:30px;
+}
