@@ -12,16 +12,16 @@
 			<i class="material-icons white-text" style="font-size:20px;">star</i>
 		</div>
 		<p class="quote-text">
-			{$_('quote.text')}
+			{$_('home.quote.text')}
 		</p>
 		<div class="quote-person-container">
 			<div class="quote-photo">
 				<img src="/logos/avatar.webp" alt="" />
 			</div>
 			<div class="quote-person">
-				{$_('quote.name')}
+				{$_('home.quote.name')}
 				<br />
-				{$_('quote.company')}
+				{$_('home.quote.company')}
 			</div>
 		</div>
 	</article>

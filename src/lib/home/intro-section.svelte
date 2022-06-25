@@ -5,10 +5,10 @@
 <section>
 	<article class="container center" style="margin-top: 120px;">
 		<h1>
-			{$_('intro.title')}<span class="h1-span">{$_('intro.titleHighlight')}</span>?
+			{$_('home.intro.title')}<span class="h1-span">{$_('home.intro.titleHighlight')}</span>?
 		</h1>
 		<p class="intro-subtitle">
-			{$_('intro.text')}
+			{$_('home.intro.text')}
 		</p>
 	</article>
 </section>
@@ -23,9 +23,9 @@
 						style="font-size:50px;margin-bottom:20px;font-weight:200">euro</i
 					>
 				</div>
-				<div class="column-title">{$_('intro.column1.title')}</div>
+				<div class="column-title">{$_('home.intro.column1.title')}</div>
 				<div class="column-text">
-					{$_('intro.column1.text')}
+					{$_('home.intro.column1.text')}
 				</div>
 				<div class="column-button hide-on-large-only">
 					<a
@@ -33,7 +33,7 @@
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
-						{$_('intro.column1.button')}
+						{$_('home.intro.column1.button')}
 					</a>
 				</div>
 			</div>
@@ -45,9 +45,9 @@
 						style="font-size:50px;margin-bottom:20px;font-weight:200">people</i
 					>
 				</div>
-				<div class="column-title">{$_('intro.column2.title')}</div>
+				<div class="column-title">{$_('home.intro.column2.title')}</div>
 				<div class="column-text">
-					{$_('intro.column1.text')}
+					{$_('home.intro.column1.text')}
 				</div>
 				<div class="column-button hide-on-large-only">
 					<a
@@ -55,7 +55,7 @@
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
-						{$_('intro.column1.button')}
+						{$_('home.intro.column1.button')}
 					</a>
 				</div>
 			</div>
@@ -67,9 +67,9 @@
 						style="font-size:50px;margin-bottom:20px;font-weight:200">event</i
 					>
 				</div>
-				<div class="column-title">{$_('intro.column1.title')}</div>
+				<div class="column-title">{$_('home.intro.column1.title')}</div>
 				<div class="column-text">
-					{$_('intro.column1.text')}
+					{$_('home.intro.column1.text')}
 				</div>
 				<div class="column-button hide-on-large-only">
 					<a
@@ -77,7 +77,7 @@
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
-						{$_('intro.column1.button')}
+						{$_('home.intro.column1.button')}
 					</a>
 				</div>
 			</div>
@@ -91,7 +91,7 @@
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
-						{$_('intro.column1.button')}
+						{$_('home.intro.column1.button')}
 					</a>
 				</div>
 			</div>
@@ -102,7 +102,7 @@
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
-						{$_('intro.column1.button')}
+						{$_('home.intro.column1.button')}
 					</a>
 				</div>
 			</div>
@@ -113,7 +113,7 @@
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
-						{$_('intro.column1.button')}
+						{$_('home.intro.column1.button')}
 					</a>
 				</div>
 			</div>

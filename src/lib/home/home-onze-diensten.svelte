@@ -7,20 +7,20 @@
 		<article class="row white-text" style="min-height:100%;">
 			<div class="col s12 l6">
 				<h5 class="home-onze-diensten-title">
-					{$_('onzeDiensten.title')}
+					{$_('home.onzeDiensten.title')}
 				</h5>
 				<p class="home-onze-diensten-text">
-					{$_('onzeDiensten.text1')}
+					{$_('home.onzeDiensten.text1')}
 				</p>
 				<p class="home-onze-diensten-text beneden">
-					{$_('onzeDiensten.text2')}
+					{$_('home.onzeDiensten.text2')}
 				</p>
 				<a
 					href="services"
 					class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 					style="border-radius:34px;"
 				>
-					{$_('onzeDiensten.button')}
+					{$_('home.onzeDiensten.button')}
 				</a>
 			</div>
 			<div class="col s12 l6">

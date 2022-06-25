@@ -4,9 +4,9 @@
 
 <section>
 	<article class="home-container container center">
-		<h2 class="home-vraag-title">{$_('question.title')}</h2>
+		<h2 class="home-vraag-title">{$_('home.question.title')}</h2>
 		<p>
-			{$_('question.text')}
+			{$_('home.question.text')}
 		</p>
 		<div class="row home-vraag-icons">
 			<a href="tel:+31612345678">
@@ -24,7 +24,7 @@
 			<a href="/contact">
 				<div class="col s12 m4 hoverable">
 					<i class="material-icons" style="font-size:50px;">contact_page</i>
-					<p>{$_('question.page')}</p>
+					<p>{$_('home.question.page')}</p>
 				</div>
 			</a>
 			<div class="col m2" />
