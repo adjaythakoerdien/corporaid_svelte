@@ -1,5 +1,5 @@
 <script lanbg="ts">
-	import { _, dictionary, locale } from 'svelte-i18n';
+	import { _ } from 'svelte-i18n';
 	import { setupI18n } from '../services/i18n';
 
 	import Header from '$lib/layout/header.svelte';
