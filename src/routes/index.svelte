@@ -1,60 +1,52 @@
-<style>
-@import "index.css";
-</style>
-
 <script lanbg="ts">
-  import Header from '$lib/layout/header.svelte';
-    import pijl from '../icons/arrow_up.png';
-    import Intro from '$lib/home/intro-section.svelte';
-    import OnzeDiensten from '$lib/home/home-onze-diensten.svelte';
-    import Carousel from '$lib/home/home-carousel.svelte';
-    import Quote from '$lib/home/home-quote.svelte';
-    import Vraag from '$lib/home/home-vraag.svelte';
-    import Footer from '$lib/layout/footer.svelte';
+	import { _, dictionary, locale } from 'svelte-i18n';
+	import { setupI18n } from '../services/i18n';
 
-
+	import Header from '$lib/layout/header.svelte';
+	import pijl from '../icons/arrow_up.png';
+	import Intro from '$lib/home/intro-section.svelte';
+	import OnzeDiensten from '$lib/home/home-onze-diensten.svelte';
+	import Carousel from '$lib/home/home-carousel.svelte';
+	import Quote from '$lib/home/home-quote.svelte';
+	import Vraag from '$lib/home/home-vraag.svelte';
+	import Footer from '$lib/layout/footer.svelte';
+	setupI18n({ withLocale: 'nl' });
+	// locale.set('nl');
 </script>
 
-
 <main style="height:722px;width:100%;background-color:#323E66;">
-    <section class="hero-section">
-        <div class="row">
-            <div class="hero-image col m6 hide-on-small-only">
+	<section class="hero-section">
+		<div class="row">
+			<div class="hero-image col m6 hide-on-small-only" />
+			<div class="hero-container col s12 m4">
+				<h1 class="hero-title hero-text white-text right">{$_('hero.title')}</h1>
 
-            </div>
-            <div class="hero-container col s12 m4">
+				<h2 class="hero-subtitle hero-text right">
+					{$_('hero.subtitle')}
+					<span class="the-next-level"> {$_('hero.subtitleHighlight')} </span>
+				</h2>
+				<div class="right" style="width:400px;">
+					<div class="">
+						<a
+							href="/contact"
+							class="hero-button right hero-text waves-effect waves-light btn deep-orange accent-2 hoverable"
+							style="border-radius:34px;">{$_('hero.button')}</a
+						>
+					</div>
 
-                <h1 class="hero-title hero-text white-text right">
-                    FRESH FINANCE PERSPECTIVE
-                </h1>
+					<div class="right white-text hero-button-subtext arrow">
+						<img src={pijl} alt="" />
+					</div>
 
-                <h2 class="hero-subtitle hero-text right">
-                    Op zoek naar interim controller of CFO professionals?
-                    Wij brengen je finance naar
-                    <span class="the-next-level">
-                        the next level
-                    </span>
-                </h2>
-                <div class="right" style="width:400px;">
-                    <div class="">
-                        <a href="/contact" class="hero-button right hero-text waves-effect waves-light btn deep-orange accent-2 hoverable" style="border-radius:34px;">NEEM DIRECT CONTACT OP</a>
-                    </div>
-
-                    <div class="right white-text hero-button-subtext arrow">
-                        <img src={pijl} alt="">
-                    </div>
-
-                    <div class="right white-text hero-button-subtext">
-                        Kennismaken is altijd GRATIS
-                    </div>
-                </div>
-
-            </div>
-            <div class="hero-image beneden col s12 hide-on-med-and-up" style="background-color: #323E66">
-
-            </div>
-        </div>
-    </section>
+					<div class="right white-text hero-button-subtext">{$_('hero.buttonSubtitle')}</div>
+				</div>
+			</div>
+			<div
+				class="hero-image beneden col s12 hide-on-med-and-up"
+				style="background-color: #323E66"
+			/>
+		</div>
+	</section>
 </main>
 
 <Intro />
@@ -68,3 +60,7 @@
 <Vraag />
 
 <Footer />
+
+<style>
+	@import 'index.css';
+</style>
