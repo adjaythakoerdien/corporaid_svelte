@@ -11,7 +11,6 @@
 	import Vraag from '$lib/home/home-vraag.svelte';
 	import Footer from '$lib/layout/footer.svelte';
 	setupI18n({ withLocale: 'nl' });
-	// locale.set('nl');
 </script>
 
 <main style="height:722px;width:100%;background-color:#323E66;">
