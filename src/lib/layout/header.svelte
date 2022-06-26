@@ -29,27 +29,3 @@
 		</div>
 	</nav>
 </div>
-
-<ul class="sidenav" id="slide-out">
-	<li>
-		<div class="user-view">
-			<a href="/">
-				<h3 class="white-text sidenav-title">
-					Corpor<span class="sidenav-logo">Aid</span>
-				</h3>
-			</a>
-		</div>
-	</li>
-	<li class={homeActive}><a href="/" class="black-text sidenav-close">Home</a></li>
-	<li class={servicesActive}>
-		<a href="/services" class="black-text sidenav-close">Onze diensten</a>
-	</li>
-	<!--		<li><a href="/" class="black-text sidenav-close">Klant cases</a></li>-->
-	<li class={contactActive}>
-		<a
-			href="/contact"
-			class="waves-effect waves-light btn hoverable deep-orange accent-2 sidenav-close"
-			style="border-radius:34px;">Contact</a
-		>
-	</li>
-</ul>
