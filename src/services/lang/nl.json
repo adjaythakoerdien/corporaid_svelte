@@ -3,28 +3,36 @@
 		"home": {
 			"hero": {
 				"title": "FRESH FINANCE PERSPECTIVE",
-				"subtitle": "Op zoek naar interim controller of CFO professionals? Wij brengen je finance naar",
-				"subtitleHighlight": "the next level",
+				"subtitle": "Op zoek naar een professionele interim controller of CFO? Wij brengen je finance naar",
+				"subtitleHighlight": "the next level.",
 				"button": "Neem direct contact op",
 				"buttonSubtitle": "Kennismaken is altijd GRATIS"
 			},
 			"intro": {
 				"title": "Wat biedt Corpor",
 				"titleHighlight": "Aid",
-				"text": "CorporAid helpt alle soorten ondernemingen met passie en professionaliteit naar een hoger plan. Van kleine zelfstandigen tot beurs genoteerde bedrijven, van start-ups tot gevestigde spelers in de markt, elke organisatie is gebaat bij een frisse financiële blik die alle bestaande processen en communicatielijnen tegen het licht houdt en de verbeterkansen in kaart brengt: CorporAid geeft jouw een Fresh Finance Perspective, om jouw ambities te realiseren.",
+				"text": "Wil jij succesvol zijn, en blijven? Dan moet je als bedrijf inventief, vooruitstrevend en relevant zijn; de beste klantervaring bieden; en data en technologie slim inzetten voor continue verbeteringen.",
+				"text2": "CorporAid helpt met passie en professionaliteit alle soorten ondernemingen naar een hoger plan. Van kleine zelfstandigen tot beursgenoteerde bedrijven, van startups tot gevestigde spelers in de markt, elke organisatie is gebaat bij een frisse financiële blik die alle bestaande processen en communicatielijnen tegen het licht houdt en de verbeterkansen in kaart brengt: CorporAid geeft jouw een Fresh Finance Perspective, om jouw ambities te realiseren.",
 				"column1": {
 					"title": "Fresh Finance Perspective",
-					"text": "De visie, doelen en ambities bepalen we door een uitgebreide analyse van de cijfers, processen, systemen en informatiestroom en door in gesprek te gaan met de mensen binnen de organisatie. Hier rolt een plan van aanpak uit met een presentatie van de bevindingen en kansrijke acties. Benieuwd naar wij jou kunnen helpen?",
+					"text": "Graag komen we bij jullie in de organisatie kijken naar verbetermogelijkheden in de processen achter de cijfers. We inventariseren de strategische visie, brengen de doelen en ambities in kaart, en spreken met verschillende mensen binnen het bedrijf. Hieruit volgt een presentatie van onze bevindingen, met een helder plan van aanpak, waarvoor wij indien gewenst ook de implementatie kunnen begeleiden. Benieuwd naar hoe wij jou kunnen helpen?",
 					"button": "Bekijk Diensten"
 				},
 				"column2": {
 					"title": "Interim Controller / part time CFO",
-					"text": "Tijdelijk je finance team versterken? Onze finance specialisten met ruime ervaring zorgen voor een vergroot capaciteit en kwaliteit in jou organisatie. Met de juiste inzicht en overzicht worden priorieiten gesteld om snel je informatiestromen te optimaliseren. Benieuwd naar hoe wij dat doen?",
+					"text": "Tijdelijk je finance team versterken? Onze finance specialisten met ruime ervaring vergroten de capaciteit en kwaliteit in jouw organisatie. Met het juiste inzicht en overzicht worden prioriteiten gesteld om snel je informatiestromen te optimaliseren. Benieuwd naar hoe wij dat doen?",
 					"button": "Bekijk Diensten"
 				},
 				"column3": {
 					"title": "Project Management",
-					"text": "Wil jij succesvol zijn, en blijven? Dan moet je als bedrijf inventief, vooruitstrevend en relevant zijn; de beste klantervaring bieden; en data en technologie slim inzetten voor continue verbeteringen. Het is onze grootste passie je daar bij te helpen. Vrijblijvend kennis maken?",
+					"text": "Onze ervaren projectmanagers ontzorgen het management team en nemen graag de verantwoordelijkheid in het voorbereiden, opzetten en leiden van jullie projecten. We bewaken de planning en het budget, en houden grip op de realisatie van de taken en doelen van elk lid van het projectteam en de onderlinge afhankelijkheden.\nVrijblijvend kennis maken?",
+					"button": "Bekijk Diensten"
+				},
+				"column4": {
+					"title": "Maatschappelijk Verantwoord Ondernemen ",
+					"subTitle": "People, Planet & Profit!",
+					"text": "Wij helpen je graag duurzamer en groener te ondernemen en tegelijk betere resultaten te behalen. Een inspirerende en gezonde werkomgeving met aandacht voor mens en milieu, zorgt voor lager verzuim en verloop, en hogere productiviteit en innovatie.",
+					"subText": "Plan een vrijblijvende kennismaking!",
 					"button": "Bekijk Diensten"
 				}
 			},
