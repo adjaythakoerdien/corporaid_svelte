@@ -62,7 +62,35 @@
 					</a>
 				</div>
 			</div>
+		</div>
 
+		<!--			BUTTONS-->
+		<div class="row button-row">
+			<div class="col s6">
+				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
+					<a
+						href="/services"
+						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
+						style="border-radius:34px;"
+					>
+						{$_('home.intro.column1.button')}
+					</a>
+				</div>
+			</div>
+			<div class="col s6" role="presentation">
+				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
+					<a
+						href="/services"
+						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
+						style="border-radius:34px;"
+					>
+						{$_('home.intro.column1.button')}
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--			END BUTTONS-->
+		<div class="row" role="presentation">
 			<div class="column-container col s12 l6" role="presentation">
 				<div class="column-logo" role="presentation">
 					<i
@@ -109,7 +137,7 @@
 		</div>
 
 		<div class="row button-row" role="presentation">
-			<div class="col s4" role="presentation">
+			<div class="col s6" role="presentation">
 				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
 					<a
 						href="/services"
@@ -120,18 +148,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col s4" role="presentation">
-				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
-					<a
-						href="/services"
-						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
-						style="border-radius:34px;"
-					>
-						{$_('home.intro.column1.button')}
-					</a>
-				</div>
-			</div>
-			<div class="col s4" role="presentation">
+			<div class="col s6" role="presentation">
 				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
 					<a
 						href="/services"
