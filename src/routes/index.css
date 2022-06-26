@@ -2,12 +2,6 @@ body,html {
     font-family: 'Mulish';
 }
 
-.intro-title {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 60px;
-}
 
 .user-view {
     background-color: #323E66;
