@@ -5,7 +5,7 @@
 <section>
 	<article class="container carousel-container center">
 		<h2 class="carousel-title">{$_('home.logosSectie.title')}</h2>
-		<div class="logos-container">
+		<div class="logos-container" role="presentation">
 			<img class="carousel-logo" src="/logos/crop.webp" alt="" />
 			<img class="carousel-logo" src="/logos/nyerode.webp" alt="" />
 			<img class="carousel-logo" src="/logos/museum-kaart.webp" alt="" />

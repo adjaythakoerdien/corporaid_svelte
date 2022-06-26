@@ -5,8 +5,8 @@
 
 <section class="services-section section-management">
 	<article class="container services-container banner">
-		<div class="row">
-			<div class="col s12 l5 services-column white-text">
+		<div class="row" role="presentation">
+			<div class="col s12 l5 services-column white-text" role="presentation">
 				<i class="material-icons" style="font-size:50px;color: white">event</i>
 				<h5>{$_('services.projectSection.title')}</h5>
 				<p class="services-column-text banner">
@@ -19,10 +19,10 @@
 				>
 			</div>
 
-			<div class="col l1" />
+			<div class="col l1" role="presentation" />
 
-			<div class="col s12 l6 services-column">
-				<div class="services-management-image" />
+			<div class="col s12 l6 services-column" role="presentation">
+				<div class="services-management-image" role="image" />
 			</div>
 		</div>
 	</article>

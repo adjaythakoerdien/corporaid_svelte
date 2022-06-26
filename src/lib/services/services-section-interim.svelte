@@ -5,14 +5,14 @@
 
 <section class="services-section">
 	<article class="container services-container">
-		<div class="row">
-			<div class="col s12 l6 services-column">
-				<div class="services-interim-image" />
+		<div class="row" role="presentation">
+			<div class="col s12 l6 services-column" role="presentation">
+				<div class="services-interim-image" role="image" />
 			</div>
 
-			<div class="col l1" />
+			<div class="col l1" role="presentation" />
 
-			<div class="col s12 l5 services-column">
+			<div class="col s12 l5 services-column" role="presentation">
 				<i class="material-icons" style="font-size:50px;color: #566BB3">groups</i>
 				<h5>{$_('services.interimSection.title')}</h5>
 				<p class="services-column-text">

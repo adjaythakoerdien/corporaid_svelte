@@ -38,17 +38,17 @@
 
 <main style="height:722px;width:100%;background-color:#323E66;">
 	<section class="hero-section">
-		<div class="row">
+		<article class="row">
 			<div class="hero-image col m6 hide-on-small-only" />
-			<div class="hero-container col s12 m4">
+			<div class="hero-container col s12 m4" role="presentation">
 				<h1 class="hero-title hero-text white-text right">{$_('home.hero.title')}</h1>
 
 				<h2 class="hero-subtitle hero-text right">
 					{$_('home.hero.subtitle')}
 					<span class="the-next-level"> {$_('home.hero.subtitleHighlight')} </span>
 				</h2>
-				<div class="right" style="width:400px;">
-					<div class="">
+				<div class="right" style="width:400px;" role="presentation">
+					<div class="" role="presentation">
 						<a
 							href="/contact"
 							class="hero-button right hero-text waves-effect waves-light btn deep-orange accent-2 hoverable"
@@ -56,18 +56,21 @@
 						>
 					</div>
 
-					<div class="right white-text hero-button-subtext arrow">
+					<div class="right white-text hero-button-subtext arrow" role="presentation">
 						<img src={pijl} alt="" />
 					</div>
 
-					<div class="right white-text hero-button-subtext">{$_('home.hero.buttonSubtitle')}</div>
+					<div class="right white-text hero-button-subtext" role="presentation">
+						{$_('home.hero.buttonSubtitle')}
+					</div>
 				</div>
 			</div>
 			<div
 				class="hero-image beneden col s12 hide-on-med-and-up"
 				style="background-color: #323E66"
+				role="presentation"
 			/>
-		</div>
+		</article>
 	</section>
 </main>
 

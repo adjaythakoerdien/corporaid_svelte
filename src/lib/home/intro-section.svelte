@@ -15,19 +15,19 @@
 
 <section>
 	<article class="columns container center">
-		<div class="row">
-			<div class="column-container col s12 l4">
-				<div class="column-logo">
+		<div class="row" role="presentation">
+			<div class="column-container col s12 l4" role="presentation">
+				<div class="column-logo" role="presentation">
 					<i
 						class="column-icon material-icons"
 						style="font-size:50px;margin-bottom:20px;font-weight:200">euro</i
 					>
 				</div>
-				<div class="column-title">{$_('home.intro.column1.title')}</div>
-				<div class="column-text">
+				<div class="column-title" role="presentation">{$_('home.intro.column1.title')}</div>
+				<div class="column-text" role="presentation">
 					{$_('home.intro.column1.text')}
 				</div>
-				<div class="column-button hide-on-large-only">
+				<div class="column-button hide-on-large-only" role="presentation">
 					<a
 						href="/services"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
@@ -38,18 +38,18 @@
 				</div>
 			</div>
 
-			<div class="column-container col s12 l4">
-				<div class="column-logo">
+			<div class="column-container col s12 l4" role="presentation">
+				<div class="column-logo" role="presentation">
 					<i
 						class="column-icon material-icons"
 						style="font-size:50px;margin-bottom:20px;font-weight:200">people</i
 					>
 				</div>
-				<div class="column-title">{$_('home.intro.column2.title')}</div>
-				<div class="column-text">
+				<div class="column-title" role="presentation">{$_('home.intro.column2.title')}</div>
+				<div class="column-text" role="presentation">
 					{$_('home.intro.column2.text')}
 				</div>
-				<div class="column-button hide-on-large-only">
+				<div class="column-button hide-on-large-only" role="presentation">
 					<a
 						href="/services"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
@@ -60,18 +60,18 @@
 				</div>
 			</div>
 
-			<div class="column-container col s12 l4">
-				<div class="column-logo">
+			<div class="column-container col s12 l4" role="presentation">
+				<div class="column-logo" role="presentation">
 					<i
 						class="column-icon material-icons"
 						style="font-size:50px;margin-bottom:20px;font-weight:200">event</i
 					>
 				</div>
-				<div class="column-title">{$_('home.intro.column3.title')}</div>
-				<div class="column-text">
+				<div class="column-title" role="presentation">{$_('home.intro.column3.title')}</div>
+				<div class="column-text" role="presentation">
 					{$_('home.intro.column3.text')}
 				</div>
-				<div class="column-button hide-on-large-only">
+				<div class="column-button hide-on-large-only" role="presentation">
 					<a
 						href="/services"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
@@ -83,9 +83,10 @@
 			</div>
 		</div>
 
-		<div class="row button-row">
+		<div class="row button-row" role="presentation">
 			<div class="col s4">
-				<div class="column-button-bottom hide-on-med-and-down">
+				role="presentation"
+				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
 					<a
 						href="/services"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
@@ -95,8 +96,8 @@
 					</a>
 				</div>
 			</div>
-			<div class="col s4">
-				<div class="column-button-bottom hide-on-med-and-down">
+			<div class="col s4" role="presentation">
+				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
 					<a
 						href="/services"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
@@ -106,8 +107,8 @@
 					</a>
 				</div>
 			</div>
-			<div class="col s4">
-				<div class="column-button-bottom hide-on-med-and-down">
+			<div class="col s4" role="presentation">
+				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
 					<a
 						href="/services"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"

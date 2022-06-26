@@ -5,7 +5,7 @@
 <section class="section-onze-diensten">
 	<div class="container">
 		<article class="row white-text" style="min-height:100%;">
-			<div class="col s12 l6">
+			<div class="col s12 l6" role="presentation">
 				<h5 class="home-onze-diensten-title">
 					{$_('home.onzeDiensten.title')}
 				</h5>
@@ -23,7 +23,7 @@
 					{$_('home.onzeDiensten.button')}
 				</a>
 			</div>
-			<div class="col s12 l6">
+			<div class="col s12 l6" role="presentation">
 				<div class="home-onze-diensten-image" />
 			</div>
 		</article>

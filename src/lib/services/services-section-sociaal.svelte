@@ -5,8 +5,8 @@
 
 <section class="services-section">
 	<article class="container services-container">
-		<div class="row">
-			<div class="col s12 l5 services-column">
+		<div class="row" role="presentation">
+			<div class="col s12 l5 services-column" role="presentation">
 				<i class="material-icons" style="font-size:50px;color: #566BB3">groups</i>
 				<h5>{$_('services.socialSection.title')}</h5>
 				<p>{$_('services.socialSection.subtitle')}</p>
@@ -20,9 +20,9 @@
 				>
 			</div>
 
-			<div class="col l1" />
+			<div class="col l1" role="presentation" />
 
-			<div class="col s12 l6 center services-column">
+			<div class="col s12 l6 center services-column" role="image">
 				<img class="responsive-img" src={SociaalImage} alt="" />
 			</div>
 		</div>
