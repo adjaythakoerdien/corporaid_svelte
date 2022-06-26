@@ -32,7 +32,6 @@ body,html {
 }
 
 .hero-section {
-    /*border-top: 3px solid #323E66;*/
 }
 
 .hero-image {
@@ -47,14 +46,9 @@ body,html {
     height: 500px;
     background-position: right 50% top ;
     margin-top: -50px;
-    /*z-index: 0;*/
 }
 
-@media only screen and (max-width: 380px) {
-    .hero-image.beneden {
-        margin-top: 100px;
-    }
-}
+
 
 
 .hero-container {
@@ -94,9 +88,7 @@ body,html {
     font-weight: 200;
     font-size: 19px;
     line-height: 31px;
-    /* or 31px */
     text-align: right;
-    /* Ultra Light Grey */
     color: #DAE3EA;
 }
 
@@ -106,7 +98,6 @@ body,html {
 }
 
 .hero-button {
-    /*position: absolute;*/
     margin-top: 60px;
     width: 231px;
     height: 49px;
@@ -120,7 +111,6 @@ body,html {
     font-weight: 100;
     width: 231px;
     z-index: 1000;
-    /*background-color: darkcyan;*/
 }
 
 .hero-button-subtext.arrow {

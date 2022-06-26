@@ -29,16 +29,16 @@ p {
 }
 
 h1 {
-    margin-top: 90px;
+    /*margin-top: 90px;*/
 }
 
 .h1-span {
     color: #566BB3;
 }
 
-.services-section.intro {
-    margin-top: 120px;
-}
+/*.services-section.intro {*/
+/*    margin-top: 120px;*/
+/*}*/
 
 .user-view {
     background-color: #323E66;
@@ -52,9 +52,9 @@ h1 {
     padding-bottom:20px;
 }
 
-.services-container {
-    margin-top: 120px;
-}
+/*.services-container {*/
+/*    margin-top: 120px;*/
+/*}*/
 
 .sidenav-logo {
     color: #566BB2;

@@ -19,7 +19,13 @@
 		NAME="description"
 		CONTENT="Fresh Finance Perspective: Op zoek naar interim controller of CFO professionals? Wij brengen je finance naar the next level!"
 	/>
-	<meta NAME="keywords" CONTENT="Finance, Interim, CFO, Controller, Project management" />
+	<meta
+		NAME="keywords"
+		CONTENT="Finance, Interim, CFO, Controller, Project management,
+		 Financiële hulp, Financiële scan, start up ondersteuning, duurzaam ondernemen,
+		 biophylic design, work life balance, productiviteit verhogen, verzuim verlagen, risico analyse,
+		 rapportage, consultant, consultancy, opleidings traject, nature by design"
+	/>
 	<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<meta property="og:image" content="https://corporaid.vercel.app/social/corporaid_fb_og.webp" />

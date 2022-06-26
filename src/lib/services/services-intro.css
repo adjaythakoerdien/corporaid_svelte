@@ -1,5 +1,11 @@
 .services-section.intro {
-    margin-top:120px;
+    /*margin-top:60px;*/
+}
+
+@media only screen and (max-width: 600px){
+    .services-section.intro {
+        margin-top:0px;
+    }
 }
 
 .intro-title {
