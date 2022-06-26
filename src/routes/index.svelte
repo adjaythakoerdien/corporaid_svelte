@@ -13,6 +13,8 @@
 	setupI18n({ withLocale: 'nl' });
 </script>
 
+<Header homeActive="active" />
+
 <main style="height:722px;width:100%;background-color:#323E66;">
 	<section class="hero-section">
 		<div class="row">

@@ -4,7 +4,7 @@
 
 <section>
 	<article class="container center" style="margin-top: 120px;">
-		<h1>
+		<h1 class="intro-title">
 			{$_('home.intro.title')}<span class="h1-span">{$_('home.intro.titleHighlight')}</span>?
 		</h1>
 		<p class="intro-subtitle">

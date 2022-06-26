@@ -1,5 +1,6 @@
 <script>
 	import SociaalImage from '$lib/assets/sociaal.webp';
+	import { _ } from 'svelte-i18n';
 </script>
 
 <section class="services-section">
@@ -7,20 +8,15 @@
 		<div class="row">
 			<div class="col s12 l5 services-column">
 				<i class="material-icons" style="font-size:50px;color: #566BB3">groups</i>
-				<h5>Sociaal Maatschappelijk Ondernemen</h5>
-				<p>PLANET, PEOPLE, PROFIT!</p>
+				<h5>{$_('services.socialSection.title')}</h5>
+				<p>{$_('services.socialSection.subtitle')}</p>
 				<p class="services-column-text">
-					Wij helpen je graag duurzamer en groener te ondernemen en daarmee te besparen. Met als
-					resultaat een inspirerende, gezonde en productieve werkomgeving met aandacht en zorg voor
-					het milieu. Dit doen we (onder andere) door het in kaart brengen van de kansen en
-					mogelijkheden. We kijken onderandere naar: Locatie verduurzame Betere work life balance
-					voor betere productiviteit onder de medewerkers. Nieuwe werken implementeren.
-					Bedrijfscatering verduurzamen
+					{$_('services.socialSection.text')}
 				</p>
 				<a
 					href="/contact"
 					class="waves-effect waves-effect waves-light btn hoverable deep-orange accent-2"
-					style="border-radius:34px;margin-top:30px;">Neem direct contact op</a
+					style="border-radius:34px;margin-top:30px;">{$_('services.socialSection.button')}</a
 				>
 			</div>
 

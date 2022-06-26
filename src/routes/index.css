@@ -2,6 +2,13 @@ body,html {
     font-family: 'Mulish';
 }
 
+.intro-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+}
+
 .user-view {
     background-color: #323E66;
 }
@@ -15,12 +22,9 @@ body,html {
 }
 
 @media only screen and (min-width: 992px) {
-
     .brand-logo {
         margin-left: 10%;
     }
-
-
 
     .header-links {
         margin-right: 10%;
@@ -45,6 +49,13 @@ body,html {
     margin-top: -50px;
     /*z-index: 0;*/
 }
+
+@media only screen and (max-width: 380px) {
+    .hero-image.beneden {
+        margin-top: 100px;
+    }
+}
+
 
 .hero-container {
     max-width: 720px;

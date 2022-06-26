@@ -1,13 +1,18 @@
-h1 {
+.intro-title {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 48px;
     line-height: 60px;
     margin-top: 120px;
 }
 @media only screen and (max-width: 600px) {
-    h1  {
+    .intro-title  {
         margin-top: 300px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .intro-title {
+        margin-top: 450px;
     }
 }
 

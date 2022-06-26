@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { _ } from '../services/i18n';
+	import { setupI18n } from '../services/i18n';
+	setupI18n({ withLocale: 'nl' });
 
 	import Header from '$lib/layout/header.svelte';
 	import Footer from '$lib/layout/footer.svelte';
@@ -35,7 +37,7 @@
 	}
 </script>
 
-<!--<Header />-->
+<Header contactActive="active" />
 
 <section class="form-section">
 	<article class="form-container">
@@ -45,38 +47,38 @@
 				on:submit|preventDefault={submitFormTest}
 				style="border-radius: 4px;"
 			>
-				<h4 class="center">Contact</h4>
-				<p class="center form-subtitle">Kleine toelichting voor het contact formmulier</p>
+				<h4 class="center">{$_('contact.title')}</h4>
+				<p class="center form-subtitle">{$_('contact.text')}</p>
 
 				<div class="row">
 					<div class="input-field col s6">
 						<input id="first_name" type="text" class="validate" required />
-						<label for="first_name">Voornaam</label>
+						<label for="first_name">{$_('contact.form.firstName')}</label>
 					</div>
 					<div class="input-field col s6">
 						<input id="last_name" type="text" class="validate" required />
-						<label for="last_name">Achternaam</label>
+						<label for="last_name">{$_('contact.form.lastName')}</label>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="input-field col s12">
 						<input id="email" type="email" class="validate" required />
-						<label for="email">Email</label>
+						<label for="email">{$_('contact.form.email')}</label>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="input-field col s12">
 						<input id="onderwerp" type="text" class="validate" required />
-						<label for="onderwerp">Onderwerp</label>
+						<label for="onderwerp">{$_('contact.form.subject')}</label>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="input-field col s12">
 						<textarea id="textarea1" class="materialize-textarea" required />
-						<label for="textarea1">Stel hier je vraag</label>
+						<label for="textarea1">{$_('contact.form.question')}</label>
 					</div>
 				</div>
 
@@ -88,7 +90,7 @@
 							style="border-radius:34px;"
 							type="submit"
 						>
-							Stuur email
+							{$_('contact.form.button')}
 						</button>
 					</div>
 				</div>

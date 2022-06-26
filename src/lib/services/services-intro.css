@@ -1,3 +1,10 @@
 .services-section.intro {
     margin-top:120px;
 }
+
+.intro-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+}
