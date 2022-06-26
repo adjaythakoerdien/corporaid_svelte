@@ -14,6 +14,10 @@
 	setupI18n({ withLocale: 'nl' });
 </script>
 
+<svelte:head>
+	<title>Onze diensten</title>
+</svelte:head>
+
 <Header servicesActive="active" />
 
 <Hero />
