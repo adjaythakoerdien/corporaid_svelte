@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>Hoi</title>
+	<title>CorporAid - Fresh Finance Perspective</title>
 	<meta
 		NAME="description"
 		CONTENT="Fresh Finance Perspective: Op zoek naar interim controller of CFO professionals? Wij brengen je finance naar the next level!"
