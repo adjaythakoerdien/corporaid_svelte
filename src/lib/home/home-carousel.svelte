@@ -6,14 +6,17 @@
 	<article class="container carousel-container center">
 		<h2 class="carousel-title">{$_('home.logosSectie.title')}</h2>
 		<div class="logos-container" role="presentation">
-			<img class="carousel-logo" src="/logos/crop.webp" alt="" />
 			<img class="carousel-logo" src="/logos/nyerode.webp" alt="" />
+			<img class="carousel-logo" src="/logos/dgb.webp" alt="" />
+			<img class="carousel-logo" src="/logos/kroonenberg.webp" alt="" />
+			<img class="carousel-logo" src="/logos/rappange.webp" alt="" />
+			<img class="carousel-logo" src="/logos/crop.webp" alt="" />
 			<img class="carousel-logo" src="/logos/museum-kaart.webp" alt="" />
 			<img class="carousel-logo" src="/logos/museum-vereniging.webp" alt="" />
 			<img class="carousel-logo" src="/logos/i-love-sushi.webp" alt="" />
 		</div>
 		<p class="carousel-subtitle">
-			{$_('home.logosSectie.title')}
+			{$_('home.logosSectie.subtitle')}
 		</p>
 	</article>
 </section>
