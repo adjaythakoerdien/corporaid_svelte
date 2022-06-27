@@ -19,6 +19,12 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .services-management-image {
+        height:200px;
+    }
+}
+
 .services-column-text.banner {
     font-weight: 200;
 }

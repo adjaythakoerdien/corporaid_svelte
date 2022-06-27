@@ -29,9 +29,9 @@
 
 @media only screen and (max-width: 1200px) {
     .services-finance-image {
-        top: 10%;
-        -ms-transform: translateY(10%);
-        transform: translateY(10%);
+        top: 15%;
+        -ms-transform: translateY(15%);
+        transform: translateY(15%);
     }
 }
 
@@ -45,6 +45,16 @@
         top: 0%;
         -ms-transform: translateY(0%);
         transform: translateY(0%);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .finance-photo {
+        height: 200px;
+    }
+
+    .services-finance-image {
+        height: 200px;
     }
 }
 
