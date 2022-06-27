@@ -24,7 +24,7 @@
 				</a>
 			</div>
 			<div class="col s12 l6" role="presentation">
-				<div class="home-onze-diensten-image" />
+				<div class="home-onze-diensten-image" role="image" />
 			</div>
 		</article>
 	</div>

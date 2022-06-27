@@ -26,7 +26,11 @@
 			<i class="material-icons right" style="font-size:22px;margin-left:0px;color:white;"
 				>open_in_new</i
 			>
-			<a class="grey-text text-lighten-4 right" href="#!">LinkedIn</a>
+			<a
+				class="grey-text text-lighten-4 right"
+				href="https://www.linkedin.com/company/corporaid-finance-control/about/"
+				target="_blank">LinkedIn</a
+			>
 		</article>
 	</section>
 </footer>

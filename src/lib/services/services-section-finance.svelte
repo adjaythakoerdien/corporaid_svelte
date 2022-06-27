@@ -4,9 +4,9 @@
 </script>
 
 <section class="services-section">
-	<article class="container services-container">
+	<article class="container services-container finance">
 		<div class="row" role="presentation">
-			<div class="col s12 l6 services-column" role="presentation">
+			<div class="col s12 l6 services-column finance-photo" role="presentation">
 				<div class="services-finance-image" role="image" />
 			</div>
 
