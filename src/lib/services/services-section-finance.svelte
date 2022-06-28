@@ -1,5 +1,4 @@
 <script>
-	import FinanceImage from '$lib/assets/finance.webp';
 	import { _ } from 'svelte-i18n';
 </script>
 
@@ -13,7 +12,7 @@
 			<div class="col l1" role="presentation" />
 
 			<div class="col s12 l5 services-column" role="presentation">
-				<i class="material-icons" style="font-size:50px;color: #566BB3">groups</i>
+				<i class="material-icons" style="font-size:50px;color: #566BB3">euro</i>
 				<h5>{$_('services.financeSection.title')}</h5>
 				<p class="services-column-text">
 					{$_('services.financeSection.text')}

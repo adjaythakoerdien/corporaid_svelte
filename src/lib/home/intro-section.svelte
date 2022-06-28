@@ -117,8 +117,10 @@
 				<div class="column-logo" role="presentation">
 					<i
 						class="column-icon material-icons"
-						style="font-size:50px;margin-bottom:20px;font-weight:200">event</i
+						style="font-size:50px;margin-bottom:20px;font-weight:200"
 					>
+						public
+					</i>
 				</div>
 				<div class="column-title" role="presentation">{$_('home.intro.column4.title')}</div>
 				<div class="column-text" role="presentation">
