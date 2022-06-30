@@ -12,7 +12,7 @@
 			<a href="tel:+31612345678">
 				<div class="col s12 m4 home-vraag-telephone hoverable">
 					<i class="material-icons contact-icon" style="font-size:50px;">phone</i>
-					<p class="contact-text">06-1234 5678</p>
+					<p class="contact-text">06-1486 5297</p>
 				</div>
 			</a>
 			<a href="mailto:info@corporaid.fake">
