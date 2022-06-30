@@ -52,8 +52,8 @@
 				"company": "CEO Coca Cola"
 			},
 			"question": {
-				"title": "Vraag?",
-				"text": "Stel hier misschien nog 1 of twee korte vragen met als doen dat de bezoeker hieronder contact opneemt. Het contact opnemen zou ook kunnen met een contact formulier waarin de bezoeker eventueel een onderwerp kan kiezen.",
+				"title": "Contact opnemen?",
+				"text": "Benieuwd naar onze diensten en wat wij voor jou kunnen betekenen? Kies een van onderstaande opties en wij zullen zo spoedig mogelijk contact met je opnemen!",
 				"page": "Contact pagina"
 			}
 		},
@@ -97,7 +97,7 @@
 		},
 		"contact": {
 			"title": "Contact",
-			"text": "Kleine toelichting voor het contact formulier",
+			"text": "Vul onderstaande contactformulier in en wij zullen zo spoedig mogelijk contact met je opnemen",
 			"form": {
 				"firstName": "Voornaam",
 				"lastName": "Achternaam",
