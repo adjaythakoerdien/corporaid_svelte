@@ -12,9 +12,9 @@
 	let onderwerp: string = '';
 	let text: string = '';
 
-	function submitForm() {
-		fetch('/api/sendmail');
-	}
+	// function submitForm() {
+	// 	fetch('/api/sendmail');
+	// }
 
 	function submitFormTest(e) {
 		firstName = e.target[0].value;
@@ -35,6 +35,16 @@
 				text
 		);
 	}
+
+	const submitForm = async (data) => {
+		const formData = new FormData(data.currentTarget);
+		console.log(formData.get('firstName'));
+
+		const res = await fetch('api/contact.json', {
+			method: 'POST',
+			body: formData
+		});
+	};
 </script>
 
 <svelte:head>
@@ -72,7 +82,7 @@
 			<div class="col s2 hide-on-med-and-down" />
 			<form
 				class="card col s12 m12 l8 contact-form"
-				on:submit|preventDefault={submitFormTest}
+				on:submit|preventDefault={submitForm}
 				style="border-radius: 4px;"
 			>
 				<h4 class="center">{$_('contact.title')}</h4>
@@ -80,32 +90,32 @@
 
 				<div class="row">
 					<div class="input-field col s6">
-						<input id="first_name" type="text" class="validate" required />
+						<input id="first_name" name="firstName" type="text" class="validate" required />
 						<label for="first_name">{$_('contact.form.firstName')}</label>
 					</div>
 					<div class="input-field col s6">
-						<input id="last_name" type="text" class="validate" required />
+						<input id="last_name" name="lastName" type="text" class="validate" />
 						<label for="last_name">{$_('contact.form.lastName')}</label>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="input-field col s12">
-						<input id="email" type="email" class="validate" required />
+						<input id="email" name="email" type="email" class="validate" />
 						<label for="email">{$_('contact.form.email')}</label>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="input-field col s12">
-						<input id="onderwerp" type="text" class="validate" required />
+						<input id="onderwerp" name="onderwerp" type="text" class="validate" />
 						<label for="onderwerp">{$_('contact.form.subject')}</label>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="input-field col s12">
-						<textarea id="textarea1" class="materialize-textarea" required />
+						<textarea id="textarea1" name="text" class="materialize-textarea" />
 						<label for="textarea1">{$_('contact.form.question')}</label>
 					</div>
 				</div>
