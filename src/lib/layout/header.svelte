@@ -18,7 +18,7 @@
 				<!--				<li><a href="#" class="black-text">Klant cases</a></li>-->
 				<li class={contactActive}>
 					<a
-						href="mailto:contact@corporaid.nl"
+						href="/contact"
 						class="waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>

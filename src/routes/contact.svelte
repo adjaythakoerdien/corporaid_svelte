@@ -12,38 +12,19 @@
 	let onderwerp: string = '';
 	let text: string = '';
 
-	// function submitForm() {
-	// 	fetch('/api/sendmail');
-	// }
-
-	function submitFormTest(e) {
-		firstName = e.target[0].value;
-		lastName = e.target[1].value;
-		email = e.target[2].value;
-		onderwerp = e.target[3].value;
-		text = e.target[4].value;
-		alert(
-			'Hier komt een mooie popup met een tekst dat de email succesvol is verstuurd naar:\n\n' +
-				firstName +
-				' ' +
-				lastName +
-				'\n' +
-				email +
-				'\n**********\n' +
-				onderwerp +
-				'\n\n' +
-				text
-		);
-	}
+	let res;
+	let resStatus: number = 0;
 
 	const submitForm = async (data) => {
 		const formData = new FormData(data.currentTarget);
 		console.log(formData.get('firstName'));
 
-		const res = await fetch('api/contact.json', {
+		res = await fetch('api/contact.json', {
 			method: 'POST',
 			body: formData
 		});
+		resStatus = res.status;
+		console.log(res.status);
 	};
 </script>
 
@@ -79,59 +60,91 @@
 <section class="form-section">
 	<article class="form-container">
 		<div class="row container">
-			<div class="col s2 hide-on-med-and-down" />
-			<form
-				class="card col s12 m12 l8 contact-form"
-				on:submit|preventDefault={submitForm}
-				style="border-radius: 4px;"
-			>
-				<h4 class="center">{$_('contact.title')}</h4>
-				<p class="center form-subtitle">{$_('contact.text')}</p>
+			{#if resStatus == 0}
+				<div class="col s2 hide-on-med-and-down" />
+				<form
+					class="card col s12 m12 l8 contact-form"
+					on:submit|preventDefault={submitForm}
+					style="border-radius: 4px;"
+				>
+					<h4 class="center">{$_('contact.title')}</h4>
+					<p class="center form-subtitle">{$_('contact.text')}</p>
 
-				<div class="row">
-					<div class="input-field col s6">
-						<input id="first_name" name="firstName" type="text" class="validate" required />
-						<label for="first_name">{$_('contact.form.firstName')}</label>
+					<div class="row">
+						<div class="input-field col s6">
+							<input
+								id="first_name"
+								bind:value={firstName}
+								name="firstName"
+								type="text"
+								class="validate"
+								required
+							/>
+							<label for="first_name">{$_('contact.form.firstName')}</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="last_name" name="lastName" type="text" class="validate" />
+							<label for="last_name">{$_('contact.form.lastName')}</label>
+						</div>
 					</div>
-					<div class="input-field col s6">
-						<input id="last_name" name="lastName" type="text" class="validate" />
-						<label for="last_name">{$_('contact.form.lastName')}</label>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="email" name="email" type="email" class="validate" />
+							<label for="email">{$_('contact.form.email')}</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="onderwerp" name="onderwerp" type="text" class="validate" />
+							<label for="onderwerp">{$_('contact.form.subject')}</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<textarea id="textarea1" name="text" class="materialize-textarea" />
+							<label for="textarea1">{$_('contact.form.question')}</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<button
+								class="form-button waves-effect waves-light btn hoverable deep-orange accent-2 col s12 hoverable"
+								style="border-radius:34px;"
+								type="submit"
+							>
+								{$_('contact.form.button')}
+							</button>
+						</div>
+					</div>
+				</form>
+			{/if}
+			{#if resStatus == 200}
+				<div class="row">
+					<div class="col s2" />
+
+					<div
+						class="card col s12 l8 white-text center"
+						style="padding:100px 0;background-color:#323E66"
+					>
+						<h5>Bedankt voor je aanvraag, {firstName}!</h5>
+						<p>We zullen zo spoedig mogelijk contact met je opnemen.</p>
 					</div>
 				</div>
-
+			{/if}
+			{#if resStatus == 404}
 				<div class="row">
-					<div class="input-field col s12">
-						<input id="email" name="email" type="email" class="validate" />
-						<label for="email">{$_('contact.form.email')}</label>
+					<div class="col s2" />
+
+					<div class="card col s12 l8 red lighten-4 center" style="padding:100px 0;">
+						<h5>Er is iets mis gegaan met het contact formulier</h5>
+						<p>Neem contact op met contact@corporaid.nl.</p>
 					</div>
 				</div>
-
-				<div class="row">
-					<div class="input-field col s12">
-						<input id="onderwerp" name="onderwerp" type="text" class="validate" />
-						<label for="onderwerp">{$_('contact.form.subject')}</label>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="input-field col s12">
-						<textarea id="textarea1" name="text" class="materialize-textarea" />
-						<label for="textarea1">{$_('contact.form.question')}</label>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="input-field col s12">
-						<button
-							class="form-button waves-effect waves-light btn hoverable deep-orange accent-2 col s12 hoverable"
-							style="border-radius:34px;"
-							type="submit"
-						>
-							{$_('contact.form.button')}
-						</button>
-					</div>
-				</div>
-			</form>
+			{/if}
 		</div>
 	</article>
 </section>
