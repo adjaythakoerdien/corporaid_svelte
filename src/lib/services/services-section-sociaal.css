@@ -1,2 +1,63 @@
 
 
+.finance-photo {
+    /*height: 700px;*/
+    /*background-color: #f26430;*/
+    position: relative;
+    /*display: flex;*/
+    /*justify-content: start;*/
+}
+
+.services-container.finance {
+    margin-bottom: 90px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .finance-photo {
+        height: 600px;
+    }
+
+}
+
+.services-sociaal-image {
+    background-color: lemonchiffon;
+    border-radius: 8px;
+    height: 500px;
+    background-image: url("../assets/hands.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1200px) {
+    .services-sociaal-image {
+        top: 15%;
+        -ms-transform: translateY(15%);
+        transform: translateY(15%);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .finance-photo {
+        height: 300px;
+    }
+
+    .services-sociaal-image {
+        height:300px;
+        top: 0%;
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .finance-photo {
+        height: 200px;
+    }
+
+    .services-sociaal-image {
+        height: 200px;
+    }
+}
+
+
