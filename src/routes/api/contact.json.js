@@ -11,10 +11,16 @@ export const post = async ({ request }) => {
 
 	// https://docs.google.com/forms/d/e/1FAIpQLSemQ7mjevyBjkbGyybzRBsFcQTPJrewJpCuLQmeukrinohhww/formResponse?usp=pp_url&entry.2005620554=${firstName}&entry.1045781291=${lastName}&entry.1065046570=${email}&entry.1166974658=${onderwerp}&entry.839337160=${text}
 
+	// https://docs.google.com/forms/d/e/1FAIpQLSfusXUBcw4ZROD4rWEU16yE8vAede-NPPz6sM9S7PhKu0n9Vw/formResponse?
+	// usp=pp_url&entry.1789629508=${email}&entry.676633944=${firstName}&
+	// entry.1174013904=${lastName}&entry.454738196=${onderwerp}&entry.1148281994=${text}&submit=Submit
+
+	// CPR
+	// https://docs.google.com/forms/d/e/1FAIpQLScFOfDNfbWvSEewzGnEgK_ppBjX8etlsnWv6Pf6ABqbW9R99g/viewform?usp=pp_url&entry.2005620554=voor&entry.1045781291=achter&entry.1065046570=email&entry.839337160=vraag
+	// https://docs.google.com/forms/d/e/1FAIpQLScFOfDNfbWvSEewzGnEgK_ppBjX8etlsnWv6Pf6ABqbW9R99g/formResponse?usp=pp_url&entry.2005620554=${firstName}&entry.1045781291=${lastName}&entry.1065046570=4{email}&entry.839337160=${text}
+	// https://docs.google.com/forms/d/e/1FAIpQLScFOfDNfbWvSEewzGnEgK_ppBjX8etlsnWv6Pf6ABqbW9R99g/viewform?usp=pp_url&entry.2005620554=voor&entry.1045781291=achter&entry.1065046570=email&entry.1166974658=onderwerp&entry.839337160=vraag
 	const res = await fetch(
-		`https://docs.google.com/forms/d/e/1FAIpQLSfusXUBcw4ZROD4rWEU16yE8vAede-NPPz6sM9S7PhKu0n9Vw/formResponse?
-		usp=pp_url&entry.1789629508=${email}&entry.676633944=${firstName}&
-		entry.1174013904=${lastName}&entry.454738196=${onderwerp}&entry.1148281994=${text}&submit=Submit`
+		`https://docs.google.com/forms/d/e/1FAIpQLScFOfDNfbWvSEewzGnEgK_ppBjX8etlsnWv6Pf6ABqbW9R99g/formResponse?usp=pp_url&entry.2005620554=${firstName}&entry.1045781291=${lastName}&entry.1065046570=${email}&entry.1166974658=${onderwerp}&entry.839337160=${text}&submit=Submit`
 	);
 
 	console.log(res);

@@ -101,7 +101,7 @@
 		},
 		"contact": {
 			"title": "Contact",
-			"text": "Vul onderstaande contactformulier in en wij zullen zo spoedig mogelijk contact met je opnemen",
+			"text": "Vul onderstaand contactformulier in en wij zullen zo spoedig mogelijk contact met je opnemen",
 			"form": {
 				"firstName": "Voornaam",
 				"lastName": "Achternaam",
