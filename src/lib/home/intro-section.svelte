@@ -21,12 +21,20 @@
 		<div class="row" role="presentation">
 			<div class="column-container col s12 l6" role="presentation">
 				<div class="column-logo" role="presentation">
-					<i
-						class="column-icon material-icons"
-						style="font-size:50px;margin-bottom:20px;font-weight:200">euro</i
-					>
+					<a href="/services">
+						<i
+							class="column-icon material-icons"
+							style="font-size:50px;margin-bottom:20px;font-weight:200"
+						>
+							euro
+						</i>
+					</a>
 				</div>
-				<div class="column-title">{$_('home.intro.column1.title')}</div>
+				<div class="column-title">
+					<a href="/services" class="black-text">
+						{$_('home.intro.column1.title')}
+					</a>
+				</div>
 				<div class="column-text">
 					{$_('home.intro.column1.text')}
 				</div>
@@ -43,12 +51,16 @@
 
 			<div class="column-container col s12 l6" role="presentation">
 				<div class="column-logo" role="presentation">
-					<i
-						class="column-icon material-icons"
-						style="font-size:50px;margin-bottom:20px;font-weight:200">people</i
+					<a href="/services">
+						<i
+							class="column-icon material-icons"
+							style="font-size:50px;margin-bottom:20px;font-weight:200">people</i
+						></a
 					>
 				</div>
-				<div class="column-title" role="presentation">{$_('home.intro.column2.title')}</div>
+				<div class="column-title" role="presentation">
+					<a href="/services" class="black-text">{$_('home.intro.column2.title')}</a>
+				</div>
 				<div class="column-text" role="presentation">
 					{$_('home.intro.column2.text')}
 				</div>
@@ -90,15 +102,20 @@
 			</div>
 		</div>
 		<!--			END BUTTONS-->
+
 		<div class="row" role="presentation">
 			<div class="column-container col s12 l6" role="presentation">
 				<div class="column-logo" role="presentation">
-					<i
-						class="column-icon material-icons"
-						style="font-size:50px;margin-bottom:20px;font-weight:200">event</i
-					>
+					<a href="/services">
+						<i
+							class="column-icon material-icons"
+							style="font-size:50px;margin-bottom:20px;font-weight:200">event</i
+						>
+					</a>
 				</div>
-				<div class="column-title" role="presentation">{$_('home.intro.column3.title')}</div>
+				<div class="column-title" role="presentation">
+					<a href="/services" class="black-text">{$_('home.intro.column3.title')}</a>
+				</div>
 				<div class="column-text" role="presentation">
 					{$_('home.intro.column3.text')}
 				</div>
@@ -115,14 +132,18 @@
 
 			<div class="column-container col s12 l6" role="presentation">
 				<div class="column-logo" role="presentation">
-					<i
-						class="column-icon material-icons"
-						style="font-size:50px;margin-bottom:20px;font-weight:200"
-					>
-						public
-					</i>
+					<a href="/services">
+						<i
+							class="column-icon material-icons"
+							style="font-size:50px;margin-bottom:20px;font-weight:200"
+						>
+							public
+						</i>
+					</a>
 				</div>
-				<div class="column-title" role="presentation">{$_('home.intro.column4.title')}</div>
+				<div class="column-title" role="presentation">
+					<a href="/services" class="black-text">{$_('home.intro.column4.title')}</a>
+				</div>
 				<div class="column-text" role="presentation">
 					{$_('home.intro.column4.text')}
 				</div>
