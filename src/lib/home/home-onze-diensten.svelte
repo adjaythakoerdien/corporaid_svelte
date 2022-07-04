@@ -3,7 +3,7 @@
 </script>
 
 <section class="section-onze-diensten">
-	<div class="container">
+	<div class="container" role="presentation">
 		<article class="row white-text" style="min-height:100%;">
 			<div class="col s12 l6" role="presentation">
 				<h5 class="home-onze-diensten-title">
@@ -24,7 +24,7 @@
 				</a>
 			</div>
 			<div class="col s12 l6" role="presentation">
-				<div class="home-onze-diensten-image" role="image" />
+				<div class="home-onze-diensten-image" role="img" aria-label="onze financiele diensten" />
 			</div>
 		</article>
 	</div>
