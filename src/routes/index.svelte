@@ -21,7 +21,7 @@
 	if (localLang == 'nl' || localLang == 'en' || localLang == 'it') {
 		setupI18n({ withLocale: localLang });
 	} else {
-		setupI18n({ withLocale: 'en' });
+		setupI18n({ withLocale: 'nl' });
 	}
 </script>
 
