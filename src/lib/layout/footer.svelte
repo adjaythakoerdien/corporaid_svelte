@@ -13,7 +13,7 @@
 				<h5 class="white-text">Contact</h5>
 				<ul class="footer-contact">
 					<li><a class="grey-text text-lighten-3" href="#!">info@corporaid.nl</a></li>
-					<li><a class="grey-text text-lighten-3" href="#!">06-1486 5297</a></li>
+					<li><a class="grey-text text-lighten-3" href="#!">+31 (0)6 1486 5297</a></li>
 					<!--					<li><a class="grey-text text-lighten-3" href="#!">Ergens In Uithoorn 101</a></li>-->
 					<!--					<li><a class="grey-text text-lighten-3" href="#!">Uithoorn</a></li>-->
 				</ul>

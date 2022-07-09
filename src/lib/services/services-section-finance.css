@@ -10,6 +10,10 @@
     margin-bottom: 90px;
 }
 
+.letter {
+    margin-right:15px;
+}
+
 @media only screen and (max-width: 1200px) {
     .finance-photo {
         height: 600px;
@@ -20,7 +24,7 @@
 .services-finance-image {
     background-color: lemonchiffon;
     border-radius: 8px;
-    height: 500px;
+    height: 600px;
     background-image: url("../assets/finance.webp");
     background-size: cover;
     background-position: left;
