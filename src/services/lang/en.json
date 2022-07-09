@@ -3,40 +3,48 @@
 		"home": {
 			"hero": {
 				"title": "FRESH FINANCE PERSPECTIVE",
-				"subtitle": "Looking for interim controller or CFO professionals? We  will take your finance to",
-				"subtitleHighlight": "the next level",
-				"button": "Neem direct contact op",
-				"buttonSubtitle": "Kennismaken is altijd GRATIS"
+				"subtitle": "Looking for a professional interim controller or CFO? We bring your finance to ",
+				"subtitleHighlight": "the next level.",
+				"button": "CONTACT US DIRECTLY",
+				"buttonSubtitle": "An introduction is always FREE"
 			},
 			"intro": {
-				"title": "Wat biedt Corpor",
-				"titleHighlight": "Aid",
-				"text": "CorporAid helpt alle soorten ondernemingen met passie en professionaliteit naar een hoger plan. Van kleine zelfstandigen tot beurs genoteerde bedrijven, van start-ups tot gevestigde spelers in de markt, elke organisatie is gebaat bij een frisse financiële blik die alle bestaande processen en communicatielijnen tegen het licht houdt en de verbeterkansen in kaart brengt: CorporAid geeft jouw een Fresh Finance Perspective, om jouw ambities te realiseren.",
+				"title": "What does CorporAid offer?",
+				"titleHighlight": "",
+				"text": "Do you want to be, and stay, successful? Then as a company you have to be inventive, progressive and relevant; provide the best customer experience; and make smart use of data and technology for continuous improvements. ",
+				"text2": "CorporAid helps all types of companies to a higher level with passion and professionalism. From small independents to listed companies, from startups to established players in the market, every organization benefits from a fresh finance perspective that examines all existing processes and communication lines and maps out the opportunities for improvement: CorporAid gives you a Fresh Finance Perspective, to realize your ambitions.",
 				"column1": {
 					"title": "Fresh Finance Perspective",
-					"text": "De visie, doelen en ambities bepalen we door een uitgebreide analyse van de cijfers, processen, systemen en informatiestroom en door in gesprek te gaan met de mensen binnen de organisatie. Hier rolt een plan van aanpak uit met een presentatie van de bevindingen en kansrijke acties. Benieuwd naar wij jou kunnen helpen?",
-					"button": "Bekijk Diensten"
+					"text": "We are glad to come to your organization to look at opportunities for improvement in the processes behind the figures. We evaluate the strategic vision, map out the goals and ambitions, and speak with various people within the company. This is followed by a presentation of our findings, with a clear plan of approach, for which we can also supervise the implementation if desired. Curious about how we can help you?",
+					"button": "VIEW SERVICES"
 				},
 				"column2": {
 					"title": "Interim Controller / part time CFO",
-					"text": "Tijdelijk je finance team versterken? Onze finance specialisten met ruime ervaring zorgen voor een vergroot capaciteit en kwaliteit in jou organisatie. Met de juiste inzicht en overzicht worden priorieiten gesteld om snel je informatiestromen te optimaliseren. Benieuwd naar hoe wij dat doen?",
-					"button": "Bekijk Diensten"
+					"text": "Would you like to temporarily strengthen your finance team? Our finance specialists with extensive experience increase the capacity and quality in your organization. With the right insight and overview, priorities are set to quickly optimize your information flows. Curious about how we do that?",
+					"button": "VIEW SERVICES"
 				},
 				"column3": {
 					"title": "Project Management",
-					"text": "Wil jij succesvol zijn, en blijven? Dan moet je als bedrijf inventief, vooruitstrevend en relevant zijn; de beste klantervaring bieden; en data en technologie slim inzetten voor continue verbeteringen. Het is onze grootste passie je daar bij te helpen. Vrijblijvend kennis maken?",
-					"button": "Bekijk Diensten"
+					"text": "Our experienced project managers unburden the management team and are happy to take responsibility for preparing, setting up and leading your projects. We monitor the planning and budget, and keep a grip on the realization of the tasks and goals of each member of the project team and the interdependencies. Want to get acquainted with no further obligation?",
+					"button": "VIEW SERVICES"
+				},
+				"column4": {
+					"title": "Corporate Social Responsibility",
+					"subTitle": "People, Planet & Profit!",
+					"text": "We are happy to help you do business in a more sustainable and greener way, while achieving better results at the same time. An inspiring and healthy working environment with attention to people and the environment ensures lower absenteeism and staff turnover, and higher productivity and innovation.",
+					"subText": "Plan a non-binding introduction!",
+					"button": "VIEW SERVICES"
 				}
 			},
 			"onzeDiensten": {
-				"title": "Onze diensten",
-				"text1": "Ben jij op zoek naar een tijdelijke/interim controller of CFO? Wij bieden jou de mogelijkheid om snel je finance team te versterken door het tijdelijk opvullen van een vacature. Ook bieden wij projectmanagers die je helpen specifieke projecten tot een succes te maken waarbij draagvlak binnen de organisatie een belangrijk aandachtspunt is.",
-				"text2": "Als ondernemer wil je graag je mensen en middelen zo effectief mogelijk inzetten. Wil jij weten hoe jouw bedrijf verder kan professionaliseren en optimaliseren? Laat ons een aantal dagen meedraaien. Met onze bedrijfsscan brengen we in beeld waar de kansen liggen om de effectiviteit te vergroten. Met een beperkte investering verkrijg jij de inzichten die je nodig hebt om de groei en toekomstbestendigheid van je bedrijf te realiseren.",
-				"button": "Bekijk Diensten"
+				"title": "Our Services",
+				"text1": "Are you looking for a temporary/interim controller or CFO? We offer you the opportunity to quickly strengthen your finance team by temporarily filling a vacancy. We also offer project managers who help you to make specific projects a success, with support within the organization as an important point of attention. ",
+				"text2": "As an entrepreneur, you want to use your people and resources as effectively as possible. Do you want to know how your company can further professionalize and optimize? Let us participate in the organisation for a few days. With our business scan, we map out where the opportunities lie to increase effectiveness. With a limited investment, you gain the insights you need to realize the growth and future-proofing of your company.",
+				"button": "VIEW SERVICES"
 			},
 			"logosSectie": {
-				"title": "We werkten eerder o.a. voor",
-				"subtitle": "En nog 100+ MKB bedrijven"
+				"title": "We previously worked for ",
+				"subtitle": "And 100+ other SMEs"
 			},
 			"quote": {
 				"text": "Hier kan een een super leuke quote komen van een tevreden klant die op een leuke wijze zijn of haar ervaringen met jullie kan delen op jullie website",
@@ -44,52 +52,64 @@
 				"company": "CEO Coca Cola"
 			},
 			"question": {
-				"title": "Vraag?",
-				"text": "Stel hier misschien nog 1 of twee korte vragen met als doen dat de bezoeker hieronder contact opneemt. Het contact opnemen zou ook kunnen met een contact formulier waarin de bezoeker eventueel een onderwerp kan kiezen.",
-				"page": "Contact pagina"
+				"title": "Want to get in touch?",
+				"text": "Curious about our services and what we can do for you? Choose one of the options below and we will contact you as soon as possible!",
+				"page": "Contact page"
 			}
 		},
 		"services": {
 			"hero": {
-				"title": "Onze Diensten",
-				"subtitle": "Heel beknopt wat onze diensten zijn en waarom wij de allerbeste zijn!",
-				"button": "Neem direct contact op"
+				"title": "OUR SERVICES",
+				"subtitle": "Curious about what we can do for you?",
+				"button": "CONTACT US DIRECTLY"
 			},
 			"intro": {
 				"title": "Corpor",
 				"titleHighlight": "Aid",
-				"text": "Onze mensen hebben ruime ervaring in een groot aantal branches en kennis van de nieuwste methodes en technieken om jouw bedrijf optimaal te laten groeien en verbeteren. We gaan graag voor je aan het werk om jou bedrijf te helpen optimaliseren en naar de next level te brengen. Graag komen we bij je langs voor een vrijblijvende kennismaking en uitleg over hoe we je verder kunnen helpen. Wij laten je graag zien dat wij de juiste partner zijn om je bedrijf en medewerkers te laten groeien!"
+				"text": "We have extensive experience in a large number of industries and knowledge of the latest methods and techniques to optimally grow and improve your company. We are happy to help optimize your company and take it to the next level. We would be happy to visit you for a non-binding introduction and explanation about how we can help you forward. We gladly show you that we are the right partner to develop your company and employees!"
 			},
 			"socialSection": {
-				"title": "Sociaal Maatschappelijk Ondernemen",
+				"title": "Corporate Social Responsibility",
 				"subtitle": "PLANET, PEOPLE, PROFIT!",
-				"text": "Wij helpen je graag duurzamer en groener te ondernemen en daarmee te besparen. Met als resultaat een inspirerende, gezonde en productieve werkomgeving met aandacht en zorg voor het milieu. Dit doen we (onder andere) door het in kaart brengen van de kansen en mogelijkheden. We kijken onderandere naar: Locatie verduurzame Betere work life balance voor betere productiviteit onder de medewerkers. Nieuwe werken implementeren. Bedrijfscatering verduurzamen",
-				"button": "Neem direct contact op"
+				"text": "Wij helpen je graag duurzamer en groener te ondernemen en daarmee te besparen. Met als resultaat een inspirerende, gezonde en productieve werkomgeving met aandacht en zorg voor het milieu. Dit doen we (onder andere) door het in kaart brengen van de kansen en mogelijkheden. We kijken onder andere naar: ",
+				"list1": "Locatie verduurzamen",
+				"list2": "Betere work life balance voor betere productiviteit onder de medewerkers",
+				"list3": "Nieuwe werken implementeren",
+				"list4": "Bedrijfscatering verduurzamen",
+				"button": "CONTACT US DIRECTLY"
 			},
 			"financeSection": {
 				"title": "Fresh Finance Perspective",
-				"text": "A. Visie, Doelen en ambities B. In kaart brengen huidige situatie 1. Gesprekken met belangrijkste mensen in en om de organisatie 2. Analyse van cijfers, processen, systemen en informatiestroom C. Kansen voor Optimalisatie en Professionalisatie D. Plan van aanpak 1. Presentatie en rapport van bevindingen, kansen en acties 2. Wat, hoe, wanneer, door wie 3. Als we iemand leveren voor de implementatie, wordt daar gelijk een voorstel voor gedaan. Dit kan een full time, part time of interim CFO en/of Controller zijn, of een (implementatie) project manager.",
-				"button": "Neem direct contact op"
+				"textA": "Visie, Doelen en ambities",
+				"textB": "In kaart brengen huidige situatie",
+				"textB1": "Gesprekken met belangrijkste mensen in en om de organisatie",
+				"textB2": "Analyse van cijfers, processen, systemen en informatiestroom",
+				"textC": "Kansen voor Optimalisatie en Professionalisatie",
+				"textD": "Plan van aanpak",
+				"textD1": "Presentatie en rapport van bevindingen, kansen en acties",
+				"textD2": "Wat, hoe, wanneer, door wie",
+				"textD3": "Als we iemand leveren voor de implementatie, wordt daar gelijk een voorstel voor gedaan. Dit kan een full time, part time of interim CFO en/of Controller zijn, of een (implementatie) project manager.",
+				"button": "CONTACT US DIRECTLY"
 			},
 			"projectSection": {
 				"title": "Project management",
-				"text": "Wij bieden jou de mogelijkheid om snel je finance team te versterken door het tijdelijk opvullen van een vacature. Een finance specialist met ruime ervaring in jouw branche vergroot de kwaliteit en capaciteit van het team, zodat er met inzicht en overzicht de juiste prioriteiten worden gesteld en de processen en informatiestromen snel worden geoptimaliseerd. Dit kan zowel full time, part time, interim of projectmatig.",
-				"button": "Neem direct contact op"
+				"text": "Wij bieden jou de mogelijkheid om snel je finance team te versterken door het tijdelijk opvullen van een vacature. Een finance specialist met ervaring in jouw branche vergroot de kwaliteit en capaciteit van het team, zodat er met inzicht en overzicht de juiste prioriteiten worden gesteld en de processen en informatiestromen snel worden geoptimaliseerd. Dit kan zowel full time, part time, interim of projectmatig.",
+				"button": "CONTACT US DIRECTLY"
 			},
 			"interimSection": {
 				"title": "Interim Controller / part time CFO",
 				"text": "Wij bieden jou de mogelijkheid om snel je finance team te versterken door het tijdelijk opvullen van een vacature. Een finance specialist met ruime ervaring in jouw branche vergroot de kwaliteit en capaciteit van het team, zodat er met inzicht en overzicht de juiste prioriteiten worden gesteld en de processen en informatiestromen snel worden geoptimaliseerd. Dit kan zowel full time, part time, interim of projectmatig.",
-				"button": "Neem direct contact op"
+				"button": "CONTACT US DIRECTLY"
 			},
 			"question": {
 				"title": "Vraag?",
 				"text": "Stel hier misschien nog 1 of twee korte vragen met als doen dat de bezoeker hieronder contact opneemt. Het contact opnemen zou ook kunnen met een contact formulier waarin de bezoeker eventueel een onderwerp kan kiezen.",
-				"page": "Contact pagina"
+				"page": "Contact page"
 			}
 		},
 		"contact": {
-			"title": "Contact",
-			"text": "Kleine toelichting voor het contact formulier",
+			"title": "Contact opnemen?",
+			"text": "Benieuwd naar onze diensten en wat wij voor jou kunnen betekenen? Kies een van onderstaande opties en wij zullen zo spoedig mogelijk contact met je opnemen!",
 			"form": {
 				"firstName": "Voornaam",
 				"lastName": "Achternaam",

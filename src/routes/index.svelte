@@ -10,7 +10,7 @@
 	import Quote from '$lib/home/home-quote.svelte';
 	import Vraag from '$lib/home/home-vraag.svelte';
 	import Footer from '$lib/layout/footer.svelte';
-	setupI18n({ withLocale: 'nl' });
+	setupI18n({ withLocale: 'en' });
 </script>
 
 <svelte:head>
