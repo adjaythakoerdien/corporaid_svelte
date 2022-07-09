@@ -146,6 +146,8 @@
 				</div>
 				<div class="column-text" role="presentation">
 					{$_('home.intro.column4.text')}
+					<br /><br />
+					{$_('home.intro.column4.subText')}
 				</div>
 				<div class="column-button hide-on-large-only" role="presentation">
 					<a

@@ -16,12 +16,31 @@
 					{$_('services.socialSection.subtitle')}<br /><br />
 					{$_('services.socialSection.text')}
 				</p>
-				<ul>
-					<li>- {$_('services.socialSection.list1')}</li>
-					<li>- {$_('services.socialSection.list2')}</li>
-					<li>- {$_('services.socialSection.list3')}</li>
-					<li>- {$_('services.socialSection.list4')}</li>
-				</ul>
+				<div class="services-column-text" style="display:flex">
+					<div class="letter">-</div>
+					<div>
+						{$_('services.socialSection.list1')}
+					</div>
+				</div>
+				<div class="services-column-text" style="display:flex">
+					<div class="letter">-</div>
+					<div>
+						{$_('services.socialSection.list2')}
+					</div>
+				</div>
+				<div class="services-column-text" style="display:flex">
+					<div class="letter">-</div>
+					<div>
+						{$_('services.socialSection.list3')}
+					</div>
+				</div>
+				<div class="services-column-text" style="display:flex">
+					<div class="letter">-</div>
+					<div>
+						{$_('services.socialSection.list4')}
+					</div>
+				</div>
+
 				<a
 					href="/contact"
 					class="waves-effect waves-effect waves-light btn hoverable deep-orange accent-2"
