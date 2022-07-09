@@ -1,11 +1,16 @@
 <script>
 	import { _ } from 'svelte-i18n';
+	let localLang = '';
+	try {
+		localLang = localStorage.getItem('localLang');
+	} catch {}
 </script>
 
 <section>
 	<article class="container center" style="margin-top: 120px;">
 		<h1 class="intro-title">
-			{$_('home.intro.title')}<span class="h1-span">{$_('home.intro.titleHighlight')}</span>?
+			{$_('home.intro.title')}<span class="h1-span">{$_('home.intro.titleHighlight')}</span>
+			{localLang === 'en' ? 'offer' : ''}?
 		</h1>
 		<p class="intro-subtitle" style="margin-bottom:30px;">
 			{$_('home.intro.text')}

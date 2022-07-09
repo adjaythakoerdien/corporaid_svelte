@@ -118,6 +118,10 @@
 				"question": "Stel hier je vraag",
 				"button": "Stuur email"
 			}
+		},
+		"header": {
+			"home": "Home",
+			"services": "Onze Diensten"
 		}
 	}
 }

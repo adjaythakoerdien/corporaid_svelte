@@ -11,7 +11,20 @@
 	import Footer from '$lib/layout/footer.svelte';
 	import { _ } from 'svelte-i18n';
 	import { setupI18n } from '../services/i18n';
-	setupI18n({ withLocale: 'nl' });
+	// setupI18n({ withLocale: 'nl' });
+	let localLang = '';
+
+	try {
+		localLang = localStorage.getItem('localLang');
+	} catch {
+		console.log('local lang not found');
+	}
+
+	if (localLang == 'nl' || localLang == 'en' || localLang == 'it') {
+		setupI18n({ withLocale: localLang });
+	} else {
+		setupI18n({ withLocale: 'en' });
+	}
 </script>
 
 <svelte:head>

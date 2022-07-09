@@ -2,6 +2,26 @@
 	export let homeActive = '';
 	export let servicesActive = '';
 	export let contactActive = '';
+	import { _ } from '../../services/i18n';
+	import { setupI18n } from '../../services/i18n';
+
+	function setLangNl() {
+		setupI18n({ withLocale: 'nl' });
+		localStorage.setItem('localLang', 'nl');
+		location.reload();
+	}
+
+	function setLangEn() {
+		setupI18n({ withLocale: 'en' });
+		localStorage.setItem('localLang', 'en');
+		location.reload();
+	}
+
+	function setLangIt() {
+		setupI18n({ withLocale: 'it' });
+		localStorage.setItem('localLang', 'it');
+		location.reload();
+	}
 </script>
 
 <div class="navbar-fixed">
@@ -13,8 +33,13 @@
 			>
 
 			<ul id="nav-mobile" class="right hide-on-med-and-down header-links">
-				<li class={homeActive}><a href="/" class="black-text">Home</a></li>
-				<li class={servicesActive}><a href="/services" class="black-text">Onze diensten</a></li>
+				<li on:click={setLangNl} class="black-text pointer" style="margin-right:15px">NL</li>
+				<li on:click={setLangEn} class="black-text pointer" style="margin-right:15px">EN</li>
+				<!--				<li on:click={setLangIt} class="black-text pointer" style="margin-right:15px">IT</li>-->
+				<li class={homeActive}><a href="/" class="black-text">{$_('header.home')}</a></li>
+				<li class={servicesActive}>
+					<a href="/services" class="black-text">{$_('header.services')}</a>
+				</li>
 				<!--				<li><a href="#" class="black-text">Klant cases</a></li>-->
 				<li class={contactActive}>
 					<a
@@ -29,3 +54,9 @@
 		</div>
 	</nav>
 </div>
+
+<style>
+	.pointer:hover {
+		cursor: pointer;
+	}
+</style>

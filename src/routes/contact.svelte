@@ -1,7 +1,19 @@
 <script lang="ts">
 	import { _ } from '../services/i18n';
 	import { setupI18n } from '../services/i18n';
-	setupI18n({ withLocale: 'nl' });
+	let localLang = '';
+
+	try {
+		localLang = localStorage.getItem('localLang');
+	} catch {
+		console.log('local lang not found');
+	}
+
+	if (localLang == 'nl' || localLang == 'en' || localLang == 'it') {
+		setupI18n({ withLocale: localLang });
+	} else {
+		setupI18n({ withLocale: 'en' });
+	}
 
 	import Header from '$lib/layout/header.svelte';
 	import Footer from '$lib/layout/footer.svelte';

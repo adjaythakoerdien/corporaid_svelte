@@ -1,6 +1,7 @@
 import { dictionary, locale, _ } from 'svelte-i18n';
 import Nl from './lang/nl.json';
 import En from './lang/en.json';
+import It from './lang/it.json';
 
 function setupI18n({ withLocale: _locale } = { withLocale: '' }) {
 	locale.set('nl');
@@ -10,6 +11,9 @@ function setupI18n({ withLocale: _locale } = { withLocale: '' }) {
 			break;
 		case 'en':
 			dictionary.set({ ...En });
+			break;
+		case 'it':
+			dictionary.set({ ...It });
 			break;
 		default:
 			dictionary.set({ ...Nl });
