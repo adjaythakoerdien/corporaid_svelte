@@ -122,6 +122,10 @@
 		"header": {
 			"home": "Home",
 			"services": "Onze Diensten"
+		},
+		"footer": {
+			"kvk": "KvK-nr",
+			"btw": "BTW-id"
 		}
 	}
 }

@@ -1,3 +1,7 @@
+<script>
+	import { _ } from '../../services/i18n';
+</script>
+
 <footer class="page-footer" style="background-color: #323E66;">
 	<section class="container">
 		<article class="row">
@@ -19,8 +23,8 @@
 					<li>
 						<a class="grey-text text-lighten-3" href="tel:+31 6 1486 5297">+31 (0)6 1486 5297</a>
 					</li>
-					<li class="grey-text text-lighten-3">KvK-nr: 86947214</li>
-					<li class="grey-text text-lighten-3">BTW-id: NL864155335B01</li>
+					<li class="grey-text text-lighten-3">{$_('footer.kvk')}: 86947214</li>
+					<li class="grey-text text-lighten-3">{$_('footer.btw')}: NL864155335B01</li>
 					<!--					<li><a class="grey-text text-lighten-3" href="#!">Ergens In Uithoorn 101</a></li>-->
 					<!--					<li><a class="grey-text text-lighten-3" href="#!">Uithoorn</a></li>-->
 				</ul>
