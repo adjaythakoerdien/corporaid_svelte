@@ -12,8 +12,15 @@
 			<div class="col l4 offset-l2 s12">
 				<h5 class="white-text">Contact</h5>
 				<ul class="footer-contact">
-					<li><a class="grey-text text-lighten-3" href="#!">info@corporaid.nl</a></li>
-					<li><a class="grey-text text-lighten-3" href="#!">+31 (0)6 1486 5297</a></li>
+					<li>
+						<a class="grey-text text-lighten-3" href="mailto:info@corporaid.nl">info@corporaid.nl</a
+						>
+					</li>
+					<li>
+						<a class="grey-text text-lighten-3" href="tel:+31 6 1486 5297">+31 (0)6 1486 5297</a>
+					</li>
+					<li class="grey-text text-lighten-3">KvK-nr: 86947214</li>
+					<li class="grey-text text-lighten-3">BTW-id: NL864155335B01</li>
 					<!--					<li><a class="grey-text text-lighten-3" href="#!">Ergens In Uithoorn 101</a></li>-->
 					<!--					<li><a class="grey-text text-lighten-3" href="#!">Uithoorn</a></li>-->
 				</ul>
