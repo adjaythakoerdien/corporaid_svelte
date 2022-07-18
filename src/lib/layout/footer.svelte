@@ -16,6 +16,7 @@
 			<div class="col l4 offset-l2 s12">
 				<h5 class="white-text">Contact</h5>
 				<ul class="footer-contact">
+					<li style="font-weight: bold">CorporAid B.V.</li>
 					<li>
 						<a class="grey-text text-lighten-3" href="mailto:info@corporaid.nl">info@corporaid.nl</a
 						>
@@ -33,7 +34,7 @@
 	</section>
 	<section class="footer-copyright">
 		<article class="container">
-			© 2022 Copyright CorporAid
+			© 2022 Copyright CorporAid B.V.
 			<i class="material-icons right" style="font-size:22px;margin-left:0px;color:white;"
 				>open_in_new</i
 			>
