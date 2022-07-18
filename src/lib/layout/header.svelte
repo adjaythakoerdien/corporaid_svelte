@@ -27,19 +27,32 @@
 <div class="navbar-fixed">
 	<nav class="blue-grey lighten-3" style="border-bottom: 3px solid #323E66;">
 		<div class="nav-wrapper blue-grey lighten-3">
-			<a href="/" class="brand-logo black-text">Corpor<span class="sidenav-logo">Aid</span></a>
-			<a href="#" data-target="slide-out" class="sidenav-trigger"
+			<a href="#" data-target="slide-out" class="sidenav-trigger left"
 				><i class="material-icons" style="color:#323E66;">menu</i></a
 			>
+			<a
+				href="/"
+				class="left black-text hide-on-med-and-down"
+				style="font-size:30px;margin-left:8%;margin-right:30px;font-weight:300"
+				>Corpor<span class="sidenav-logo">Aid</span></a
+			>
+			<a href="/" class="brand-logo black-text hide-on-large-only"
+				>Corpor<span class="sidenav-logo">Aid</span></a
+			>
 
-			<ul id="nav-mobile" class="right hide-on-med-and-down header-links">
-				<li on:click={setLangNl} class="black-text pointer" style="margin-right:15px">NL</li>
-				<li on:click={setLangEn} class="black-text pointer" style="margin-right:15px">EN</li>
+			<ul id="nav-mobile" class="left hide-on-med-and-down header-links">
 				<!--				<li on:click={setLangIt} class="black-text pointer" style="margin-right:15px">IT</li>-->
 				<li class={homeActive}><a href="/" class="black-text">{$_('header.home')}</a></li>
 				<li class={servicesActive}>
 					<a href="/services" class="black-text">{$_('header.services')}</a>
 				</li>
+				<!--				<li><a href="#" class="black-text">Klant cases</a></li>-->
+			</ul>
+			<ul class="right hide-on-med-and-down header-links">
+				<li on:click={setLangNl} class="black-text pointer" style="margin-right:15px">NL</li>
+				<li on:click={setLangEn} class="black-text pointer" style="margin-right:15px">EN</li>
+				<!--				<li on:click={setLangIt} class="black-text pointer" style="margin-right:15px">IT</li>-->
+
 				<!--				<li><a href="#" class="black-text">Klant cases</a></li>-->
 				<li class={contactActive}>
 					<a
