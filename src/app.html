@@ -16,7 +16,8 @@
 		%sveltekit.head%
 
 		<!-- Compiled and minified CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!--		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+		<link type="text/css" rel="stylesheet" href="%sveltekit.assets%/css/materialize.min.css"  media="screen,projection"/>
 
 		<!--    Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -70,7 +71,9 @@
 <!--	End header -->
 
 		<div>%sveltekit.body%</div>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!--		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+<script type="text/javascript" src="%sveltekit.assets%/js/materialize.min.js"></script>
+
 		<script>
 			const slide_menu = document.querySelectorAll('.sidenav');
 			M.Sidenav.init(slide_menu,{});
