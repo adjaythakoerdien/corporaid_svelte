@@ -48,7 +48,7 @@
 					</div>
 				</div>
 				<p>
-					{$_('services.financeSection.text1')}
+					{$_('services.financeSection.text4')}
 				</p>
 
 				<!--	{$_('services.financeSection.textB')}-->
