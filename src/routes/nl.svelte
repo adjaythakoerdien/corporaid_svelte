@@ -4,7 +4,7 @@
 
 	setupI18n({ withLocale: 'nl' });
 	localStorage.setItem('localLang', 'nl');
-	const hostname = location.host;
+	const hostname = location.origin;
 	console.log(hostname);
 	location.href = hostname;
 
