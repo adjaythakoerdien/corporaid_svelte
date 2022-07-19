@@ -14,60 +14,43 @@
 			<div class="col s12 l5 services-column" role="presentation">
 				<i class="material-icons" style="font-size:50px;color: #566BB3">euro</i>
 				<h5>{$_('services.financeSection.title')}</h5>
+				<p>
+					{$_('services.financeSection.text1')}
+				</p>
+				<p>
+					{$_('services.financeSection.text2')}
+				</p>
+				<p>
+					{$_('services.financeSection.text3')}
+				</p>
 				<div class="services-column-text" style="display:flex">
-					<div class="letter">A</div>
+					<div class="letter">-</div>
 					<div>
-						{$_('services.financeSection.textA')}
+						{$_('services.financeSection.list1')}
 					</div>
 				</div>
 				<div class="services-column-text" style="display:flex">
-					<div class="letter">B</div>
+					<div class="letter">-</div>
 					<div>
-						{$_('services.financeSection.textB')}
+						{$_('services.financeSection.list2')}
 					</div>
 				</div>
 				<div class="services-column-text" style="display:flex">
-					<div class="letter">1</div>
+					<div class="letter">-</div>
 					<div>
-						{$_('services.financeSection.textB1')}
+						{$_('services.financeSection.list3')}
 					</div>
 				</div>
 				<div class="services-column-text" style="display:flex">
-					<div class="letter">2</div>
+					<div class="letter">-</div>
 					<div>
-						{$_('services.financeSection.textB2')}
+						{$_('services.financeSection.list4')}
 					</div>
 				</div>
-				<div class="services-column-text" style="display:flex">
-					<div class="letter">C</div>
-					<div>
-						{$_('services.financeSection.textC')}
-					</div>
-				</div>
-				<div class="services-column-text" style="display:flex">
-					<div class="letter">D</div>
-					<div>
-						{$_('services.financeSection.textD')}
-					</div>
-				</div>
-				<div class="services-column-text" style="display:flex">
-					<div class="letter">1</div>
-					<div>
-						{$_('services.financeSection.textD1')}
-					</div>
-				</div>
-				<div class="services-column-text" style="display:flex">
-					<div class="letter">2</div>
-					<div>
-						{$_('services.financeSection.textD2')}
-					</div>
-				</div>
-				<div class="services-column-text" style="display:flex">
-					<div class="letter">3</div>
-					<div>
-						{$_('services.financeSection.textD3')}
-					</div>
-				</div>
+				<p>
+					{$_('services.financeSection.text1')}
+				</p>
+
 				<!--	{$_('services.financeSection.textB')}-->
 				<!--	{$_('services.financeSection.textB1')}-->
 				<!--	{$_('services.financeSection.textB2')}-->

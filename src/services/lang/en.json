@@ -71,52 +71,59 @@
 			"socialSection": {
 				"title": "Corporate Social Responsibility",
 				"subtitle": "PLANET, PEOPLE, PROFIT!",
-				"text": "Wij helpen je graag duurzamer en groener te ondernemen en daarmee te besparen. Met als resultaat een inspirerende, gezonde en productieve werkomgeving met aandacht en zorg voor het milieu. Dit doen we (onder andere) door het in kaart brengen van de kansen en mogelijkheden. We kijken onder andere naar: ",
-				"list1": "Locatie verduurzamen",
-				"list2": "Betere work life balance voor betere productiviteit onder de medewerkers",
-				"list3": "Nieuwe werken implementeren",
-				"list4": "Bedrijfscatering verduurzamen",
+				"text": "We are happy to help you do business in a more social, sustainable and greener way. With a broad package tailored to your specific situation, savings can be made and at the same time new revenue streams can be realized. It also creates an inspiring, healthy and productive working environment with attention to sustainability. We do this by (among other things) mapping out opportunities and possibilities in the following areas:",
+				"list1": "The sustainability aspects of the existing business operations, which we help to improve and control, and to better communicate the developments made to all stakeholders.",
+				"list2": "Distinguishing yourself positively from other companies, both for employees and customers.",
+				"list3": "Anticipating future laws and regulations.",
+				"list4": "Obtaining (ISO) certifications.",
+				"list5": "Finding an optimal balance between the economic, social and ecological aspects of business operations.",
+				"list6": "Preparing an annual sustainability report.",
+				"list7": "Making the business location(s), the (lease) vehicle fleet, the company catering, etc. more sustainable.",
+				"list8": "Realizing an inspiring and healthy work environment, in which there is room for both concentration and communication, inspiration and productivity.",
+				"list9": "Facilitating a better work-life balance for employees, for higher effectiveness, productivity and loyalty to the company.",
 				"button": "CONTACT US DIRECTLY"
 			},
 			"financeSection": {
 				"title": "Fresh Finance Perspective",
-				"textA": "Visie, Doelen en ambities",
-				"textB": "In kaart brengen huidige situatie",
-				"textB1": "Gesprekken met belangrijkste mensen in en om de organisatie",
-				"textB2": "Analyse van cijfers, processen, systemen en informatiestroom",
-				"textC": "Kansen voor Optimalisatie en Professionalisatie",
-				"textD": "Plan van aanpak",
-				"textD1": "Presentatie en rapport van bevindingen, kansen en acties",
-				"textD2": "Wat, hoe, wanneer, door wie",
-				"textD3": "Als we iemand leveren voor de implementatie, wordt daar gelijk een voorstel voor gedaan. Dit kan een full time, part time of interim CFO en/of Controller zijn, of een (implementatie) project manager.",
+				"text1": "Every organization benefits from a periodic check-up of all processes, systems and information flows. Techniques and insights develop, and everyday practice sometimes leads to ad hoc solutions being devised, which then become part of the normal process, without strategic reflection. In addition to opportunities and possibilities in the field of automation and standardization, we also look at recalibrating the division of tasks, process optimization, further professionalization and many other facets.",
+				"text2": "We spend a few days in the organization and form a complete picture of the current situation from strategy to execution, with numerical and process-technical analyses. We present our report with conclusions and recommendations with an extensive explanation and a concrete action plan, and we guide and manage implementation processes if necessary.",
+				"text3": "We offer this Fresh Finance Perspective scan in 3 variants, depending on the size and complexity of your organization.",
+				"list1": "S  € 3.795,- (40 hours)",
+				"list2": "M € 5.495,- (60 hours)",
+				"list3": "L  € 7.245,- (80 hours)",
+				"list4": "(Prices excluding VAT)",
+				"text4": "If we are asked to supply someone for the implementation, a proposal is supplied immediately. This can be a full-time, part-time or interim CFO and/or Controller, or an (implementation) project manager.",
 				"button": "CONTACT US DIRECTLY"
 			},
 			"projectSection": {
 				"title": "Project management",
-				"text": "Wij bieden jou de mogelijkheid om snel je finance team te versterken door het tijdelijk opvullen van een vacature. Een finance specialist met ervaring in jouw branche vergroot de kwaliteit en capaciteit van het team, zodat er met inzicht en overzicht de juiste prioriteiten worden gesteld en de processen en informatiestromen snel worden geoptimaliseerd. Dit kan zowel full time, part time, interim of projectmatig.",
+				"text1": "There can be many reasons for choosing an external project manager. Often the management team itself has too little time and lacks certain specific expertise to act in this role. In addition, especially in scrum projects, it is of added value to leave the leadership of a team of existing employees in new roles and with new responsibilities to an experienced external project manager, to whom the employees do not already relate in a certain way.",
+				"text2": "Project management is primarily people management. CorporAid's project managers have good empathy and sense of relations and can communicate effectively with different people, manage and collaborate with them, and motivate them on a personal level. The mutual cooperation within the project team is of great importance for a good project result, and this is monitored with good tactical and strategic insight and a strong analytical capacity. To cope with the unruly nature of practice, our project managers also have a great talent for improvisation, a proactive attitude and a good dose of stress resistance.",
+				"text3": "CorporAid project managers always start by reflecting on the usefulness, necessity, desirability and feasibility of the project together with the management team. When setting up the project plan, careful consideration is given to which project method best suits the intended result and the available time, people and resources. We are experienced in both traditional waterfall/turnkey projects, as well as agile/scrum/lean/six sigma work methods. Defining the scope of the project and drawing up clear preconditions are important facets of a well-realizable project, as are the identification and management of the associated risks.",
+				"text4": "We are happy to unburden your management team and take responsibility for preparing, setting up and leading your projects. Monitoring and managing the planning and budget is in good experienced hands with us.",
 				"button": "CONTACT US DIRECTLY"
 			},
 			"interimSection": {
 				"title": "Interim Controller / part time CFO",
-				"text": "Wij bieden jou de mogelijkheid om snel je finance team te versterken door het tijdelijk opvullen van een vacature. Een finance specialist met ruime ervaring in jouw branche vergroot de kwaliteit en capaciteit van het team, zodat er met inzicht en overzicht de juiste prioriteiten worden gesteld en de processen en informatiestromen snel worden geoptimaliseerd. Dit kan zowel full time, part time, interim of projectmatig.",
+				"text": "We offer you the opportunity to quickly strengthen your finance team by temporarily filling a vacancy. A finance specialist with experience in your industry increases the quality and capacity of the team, so that the right priorities are set with insight and overview and the processes and information flows are quickly optimized. This can be full-time, part-time, interim or project-based.",
 				"button": "CONTACT US DIRECTLY"
 			},
 			"question": {
-				"title": "Vraag?",
-				"text": "Stel hier misschien nog 1 of twee korte vragen met als doen dat de bezoeker hieronder contact opneemt. Het contact opnemen zou ook kunnen met een contact formulier waarin de bezoeker eventueel een onderwerp kan kiezen.",
+				"title": "Want to get in touch?",
+				"text": "Curious about our services and what we can do for you? Choose one of the options below and we will contact you as soon as possible!",
 				"page": "Contact page"
 			}
 		},
 		"contact": {
-			"title": "Contact opnemen?",
-			"text": "Benieuwd naar onze diensten en wat wij voor jou kunnen betekenen? Kies een van onderstaande opties en wij zullen zo spoedig mogelijk contact met je opnemen!",
+			"title": "Want to get in touch?",
+			"text": "Curious about our services and what we can do for you? Choose one of the options below and we will contact you as soon as possible!",
 			"form": {
-				"firstName": "Voornaam",
-				"lastName": "Achternaam",
+				"firstName": "First name",
+				"lastName": "Last name",
 				"email": "Email",
-				"subject": "Onderwerp",
-				"question": "Stel hier je vraag",
-				"button": "Stuur email"
+				"subject": "Subject",
+				"question": "Type your question here",
+				"button": "Send email"
 			}
 		},
 		"header": {

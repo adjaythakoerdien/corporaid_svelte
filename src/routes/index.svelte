@@ -1,4 +1,4 @@
-<script lanbg="ts">
+<script lang="ts">
 	import { _ } from 'svelte-i18n';
 	import { setupI18n } from '../services/i18n';
 

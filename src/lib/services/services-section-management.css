@@ -5,23 +5,27 @@
 .services-management-image {
     background-color: lemonchiffon;
     border-radius: 8px;
-    height: 500px;
+    height: 800px;
     background-image: url("../assets/management.webp");
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    /*margin-left: 50px;*/
+    margin-top: 150px;
 }
 
 @media only screen and (max-width: 992px) {
     .services-management-image {
         height:300px;
+        margin-top: 0;
+
     }
 }
 
 @media only screen and (max-width: 600px) {
     .services-management-image {
         height:200px;
+        margin-top: 0;
+
     }
 }
 

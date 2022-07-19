@@ -26,10 +26,21 @@
 		<!--    Material Icons -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<title>CorporAid</title>
-	</head>
+
+		<script>
+			import { _ } from '../../services/i18n';
+			import { setupI18n } from '../../services/i18n';
+			function setLangNl() {
+				setupI18n({ withLocale: 'nl' });
+				localStorage.setItem('localLang', 'nl');
+				location.reload();
+
+			}
+		</script>
 	<style>
 
 	</style>
+	</head>
 	<body>
 
 <!--	Header -->
@@ -47,6 +58,12 @@
 	<li>
 		<a href="/services" class="black-text sidenav-close">Onze diensten</a>
 	</li>
+<!--	<li>-->
+<!--		<a onclick="setLangNl()" class="black-text sidenav-close">NL</a>-->
+<!--	</li>-->
+<!--	<li>-->
+<!--		<a href="/services" class="black-text sidenav-close">EN</a>-->
+<!--	</li>-->
 	<!--		<li><a href="/" class="black-text sidenav-close">Klant cases</a></li>-->
 	<li>
 		<a
@@ -64,6 +81,7 @@
 		<script>
 			const slide_menu = document.querySelectorAll('.sidenav');
 			M.Sidenav.init(slide_menu,{});
+
 		</script>
 
 	</body>

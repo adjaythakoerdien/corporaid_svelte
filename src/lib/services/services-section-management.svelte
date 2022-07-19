@@ -10,7 +10,16 @@
 				<i class="material-icons" style="font-size:50px;color: white">event</i>
 				<h5>{$_('services.projectSection.title')}</h5>
 				<p class="services-column-text banner">
-					{$_('services.projectSection.text')}
+					{$_('services.projectSection.text1')}
+				</p>
+				<p class="services-column-text banner">
+					{$_('services.projectSection.text2')}
+				</p>
+				<p class="services-column-text banner">
+					{$_('services.projectSection.text3')}
+				</p>
+				<p class="services-column-text banner">
+					{$_('services.projectSection.text4')}
 				</p>
 				<a
 					href="/contact"

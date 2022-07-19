@@ -40,6 +40,36 @@
 						{$_('services.socialSection.list4')}
 					</div>
 				</div>
+				<div class="services-column-text" style="display:flex">
+					<div class="letter">-</div>
+					<div>
+						{$_('services.socialSection.list5')}
+					</div>
+				</div>
+				<div class="services-column-text" style="display:flex">
+					<div class="letter">-</div>
+					<div>
+						{$_('services.socialSection.list6')}
+					</div>
+				</div>
+				<div class="services-column-text" style="display:flex">
+					<div class="letter">-</div>
+					<div>
+						{$_('services.socialSection.list7')}
+					</div>
+				</div>
+				<div class="services-column-text" style="display:flex">
+					<div class="letter">-</div>
+					<div>
+						{$_('services.socialSection.list8')}
+					</div>
+				</div>
+				<div class="services-column-text" style="display:flex">
+					<div class="letter">-</div>
+					<div>
+						{$_('services.socialSection.list9')}
+					</div>
+				</div>
 
 				<a
 					href="/contact"

@@ -5,6 +5,10 @@
 	import { _ } from '../../services/i18n';
 	import { setupI18n } from '../../services/i18n';
 
+	let localLang = '';
+	let NlActive = '';
+	let EnActive = '';
+
 	function setLangNl() {
 		setupI18n({ withLocale: 'nl' });
 		localStorage.setItem('localLang', 'nl');
@@ -21,6 +25,19 @@
 		setupI18n({ withLocale: 'it' });
 		localStorage.setItem('localLang', 'it');
 		location.reload();
+	}
+
+	try {
+		localLang = localStorage.getItem('localLang');
+	} catch {
+		console.log('local lang not found');
+	}
+
+	if (localLang == 'nl') {
+		NlActive = 'active';
+	}
+	if (localLang == 'en') {
+		EnActive = 'active';
 	}
 </script>
 
@@ -49,8 +66,12 @@
 				<!--				<li><a href="#" class="black-text">Klant cases</a></li>-->
 			</ul>
 			<ul class="right hide-on-med-and-down header-links">
-				<li on:click={setLangNl} class="black-text pointer" style="margin-right:15px">NL</li>
-				<li on:click={setLangEn} class="black-text pointer" style="margin-right:15px">EN</li>
+				<li on:click={setLangNl} class="black-text pointer {NlActive}" style="padding: 0 10px">
+					NL
+				</li>
+				<li on:click={setLangEn} class="black-text pointer {EnActive}" style="padding: 0 10px">
+					EN
+				</li>
 				<!--				<li on:click={setLangIt} class="black-text pointer" style="margin-right:15px">IT</li>-->
 
 				<!--				<li><a href="#" class="black-text">Klant cases</a></li>-->

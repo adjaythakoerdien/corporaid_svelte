@@ -66,39 +66,46 @@
 			"intro": {
 				"title": "Corpor",
 				"titleHighlight": "Aid",
-				"text": "We hebben ruime ervaring in een groot aantal branches en kennis van de nieuwste methodes en technieken om jouw bedrijf optimaal te laten groeien en verbeteren. We gaan graag voor je aan het werk om jou bedrijf te helpen optimaliseren en naar de next level te brengen. Graag komen we bij je langs voor een vrijblijvende kennismaking en uitleg over hoe we je verder kunnen helpen. Wij laten je graag zien dat wij de juiste partner zijn om je bedrijf en medewerkers te laten groeien!"
+				"text": "We hebben ruime ervaring in een groot aantal branches en kennis van de nieuwste methodes en technieken om jouw bedrijf optimaal te laten groeien en verbeteren. We gaan graag voor je aan het werk om jouw bedrijf te helpen optimaliseren en naar de next level te brengen. Graag komen we bij je langs voor een vrijblijvende kennismaking en uitleg over hoe we je verder kunnen helpen. Wij laten je graag zien dat wij de juiste partner zijn om je bedrijf en medewerkers te laten groeien!"
 			},
 			"socialSection": {
-				"title": "Sociaal Maatschappelijk Ondernemen",
+				"title": "Maatschappelijk Verantwoord Ondernemen",
 				"subtitle": "PLANET, PEOPLE, PROFIT!",
-				"text": "Wij helpen je graag duurzamer en groener te ondernemen en daarmee te besparen. Met als resultaat een inspirerende, gezonde en productieve werkomgeving met aandacht en zorg voor het milieu. Dit doen we (onder andere) door het in kaart brengen van de kansen en mogelijkheden. We kijken onder andere naar: ",
-				"list1": "Locatie verduurzamen",
-				"list2": "Betere work life balance voor betere productiviteit onder de medewerkers",
-				"list3": "Nieuwe werken implementeren",
-				"list4": "Bedrijfscatering verduurzamen",
+				"text": "Wij helpen je graag socialer, duurzamer en groener te ondernemen. Met een breed en op jullie specifieke situatie toegespitst pakket, kan er zowel worden bespaard als nieuwe omzetstromen worden aangeboord. Ook ontstaat er een inspirerende, gezonde en productieve werkomgeving met aandacht voor het milieu. Dit doen we (onder andere) door het in kaart brengen van kansen en mogelijkheden op het gebied van:",
+				"list1": "De duurzaamheidsaspecten van de bestaande bedrijfsvoering, en deze helpen verbeteren en beheersen, en de ontwikkeling hierin beter uit te dragen aan alle stakeholders.",
+				"list2": "Het je positief (blijven) onderscheiden ten opzichte van andere bedrijven, zowel voor werknemers als klanten.",
+				"list3": "Het anticiperen op toekomstige wet- en regelgeving.",
+				"list4": "Het verkrijgen van (ISO) certificeringen.",
+				"list5": "Het vinden van een optimale balans tussen de economische, sociale en ecologische aspecten van de bedrijfsvoering.",
+				"list6": "Het jaarlijks gaan opstellen van een maatschappelijk jaarverslag.",
+				"list7": "Het verduurzamen van de bedrijfslocatie(s), het (lease)wagenpark, de bedrijfscatering e.d.",
+				"list8": "Het realiseren van een inspirerende en gezonde werkomgeving, waarin ruimte is voor zowel concentratie als communicatie, inspiratie en productiviteit.",
+				"list9": "Het faciliteren van een betere work-life balance voor de werknemers, voor hogere effectiviteit, productiviteit en binding met het bedrijf.",
 				"button": "Neem direct contact op"
 			},
 			"financeSection": {
 				"title": "Fresh Finance Perspective",
-				"textA": "Visie, Doelen en ambities",
-				"textB": "In kaart brengen huidige situatie",
-				"textB1": "Gesprekken met belangrijkste mensen in en om de organisatie",
-				"textB2": "Analyse van cijfers, processen, systemen en informatiestroom",
-				"textC": "Kansen voor Optimalisatie en Professionalisatie",
-				"textD": "Plan van aanpak",
-				"textD1": "Presentatie en rapport van bevindingen, kansen en acties",
-				"textD2": "Wat, hoe, wanneer, door wie",
-				"textD3": "Als we iemand leveren voor de implementatie, wordt daar gelijk een voorstel voor gedaan. Dit kan een full time, part time of interim CFO en/of Controller zijn, of een (implementatie) project manager.",
+				"text1": "Iedere organisatie is gebaat bij een periodieke check-up van alle processen, systemen en informatiestromen. Technieken en inzichten ontwikkelen zich, en de praktijk leidt er nog wel eens toe dat er ad hoc oplossingen worden bedacht, die vervolgens gewoonte worden, zonder dat er strategisch op gereflecteerd wordt. Naast kansen en mogelijkheden op het gebied van automatisering en standaardisatie, kijken we ook naar herijking van de taakverdelingen, procesoptimalisatie, verdere professionalisering en nog vele andere facetten.",
+				"text2": "We lopen enkele dagen mee in de organisatie en vormen een volledig beeld van de huidige situatie van strategie tot uitvoering met cijfermatige en procestechnische analyses. Ons rapport met conclusies en aanbevelingen presenteren we met een uitgebreide toelichting en een concreet plan van aanpak, en we begeleiden eventueel implementatietrajecten.",
+				"text3": "Deze Fresh Finance Perspective scan bieden wij aan in 3 varianten afhankelijk van de grootte en complexiteit van jullie organisatie.",
+				"list1": "S  € 3.795,- (40 uur)",
+				"list2": "M € 5.495,- (60 uur)",
+				"list3": "L  € 7.245,- (80 uur)",
+				"list4": "(Prijzen excl. BTW)",
+				"text4": "Als we iemand leveren voor de implementatie, wordt daar gelijk een voorstel voor gedaan. Dit kan een fulltime, parttime of interim CFO en/of Controller zijn, of een (implementatie) project manager.",
 				"button": "Neem direct contact op"
 			},
 			"projectSection": {
 				"title": "Project management",
-				"text": "Wij bieden jou de mogelijkheid om snel je finance team te versterken door het tijdelijk opvullen van een vacature. Een finance specialist met ervaring in jouw branche vergroot de kwaliteit en capaciteit van het team, zodat er met inzicht en overzicht de juiste prioriteiten worden gesteld en de processen en informatiestromen snel worden geoptimaliseerd. Dit kan zowel full time, part time, interim of projectmatig.",
+				"text1": "Er kunnen vele redenen zijn om voor een externe projectmanager te kiezen. Vaak heeft het management team zelf te weinig tijd en mist bepaalde specifieke expertise om in deze rol op te treden. Daarnaast is het, zeker in scrum projecten, van meerwaarde om de leiding over het team van bestaande medewerkers in nieuwe rollen en met nieuwe verantwoordelijkheden, over te laten aan een ervaren externe projectmanager, waartoe de medewerkers zich niet reeds op een bepaalde manier verhouden.",
+				"text2": "Projectmanagement is in de eerste plaats people management. De projectmanagers van CorporAid hebben goed inlevingsvermogen en gevoel voor verhoudingen, om effectief met verschillende mensen te communiceren, met ze samen te werken en aan te sturen, en ze persoonlijk te motiveren. De onderlinge samenwerking binnen het projectteam is van groot belang voor een goed projectresultaat, en deze wordt bewaakt met goed tactisch en strategisch inzicht en een sterk analytisch vermogen. Om de weerbarstige praktijk het hoofd te bieden, beschikken onze projectmanagers ook over een groot improvisatietalent, een proactieve houding en een goede dosis stressbestendigheid.",
+				"text3": "CorporAid projectmanagers beginnen altijd met samen met het management team te reflecteren op het nut, de noodzaak, de wenselijkheid en de haalbaarheid van het project. Bij de opzet van het projectplan wordt goed gekeken welke projectmethode het beste bij het beoogde resultaat, en de beschikbare tijd, mensen en middelen past. We zijn vertrouwd met zowel traditionele waterval/turn-key projecten als met agile/scrum/lean/six sigma methodes. De afbakening van de scope van het project en het opstellen van duidelijke randvoorwaarden zijn belangrijke facetten van een goed realiseerbaar project, evenals het in beeld brengen en beheersen van de risico's.",
+				"text4": "Graag ontzorgen wij jullie management team en nemen de verantwoordelijkheid in het voorbereiden, opzetten en leiden van jullie projecten. Het bewaken van de planning en het budget is bij ons in goede ervaren handen.",
 				"button": "Neem direct contact op"
 			},
 			"interimSection": {
 				"title": "Interim Controller / part time CFO",
-				"text": "Wij bieden jou de mogelijkheid om snel je finance team te versterken door het tijdelijk opvullen van een vacature. Een finance specialist met ruime ervaring in jouw branche vergroot de kwaliteit en capaciteit van het team, zodat er met inzicht en overzicht de juiste prioriteiten worden gesteld en de processen en informatiestromen snel worden geoptimaliseerd. Dit kan zowel full time, part time, interim of projectmatig.",
+				"text": "Wij bieden jou de mogelijkheid om snel je finance team te versterken door het tijdelijk opvullen van een vacature. Een finance specialist met ervaring in jouw branche vergroot de kwaliteit en capaciteit van het team, zodat er met inzicht en overzicht de juiste prioriteiten worden gesteld en de processen en informatiestromen snel worden geoptimaliseerd. Dit kan zowel full time, part time, interim of projectmatig.",
 				"button": "Neem direct contact op"
 			},
 			"question": {
