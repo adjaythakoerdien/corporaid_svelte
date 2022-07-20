@@ -43,7 +43,7 @@
 
 <div class="navbar-fixed">
 	<nav class="blue-grey lighten-3" style="border-bottom: 3px solid #323E66;">
-		<div class="nav-wrapper blue-grey lighten-3">
+		<div class="nav-wrapper">
 			<a href="#" data-target="slide-out" class="sidenav-trigger left"
 				><i class="material-icons" style="color:#323E66;">menu</i></a
 			>
