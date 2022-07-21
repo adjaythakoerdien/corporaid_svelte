@@ -6,7 +6,7 @@
 	<section class="container">
 		<article class="row">
 			<div class="col l6 s12">
-				<h5 class="white-text">
+				<h5 class="white-text footer-logo">
 					Corpor<span class="home-footer-aid">Aid</span>
 				</h5>
 				<p class="white-text text-lighten-4 home-footer-subtitle">

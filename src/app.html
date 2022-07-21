@@ -90,12 +90,12 @@
 
 			try {
 				localLang = localStorage.getItem('localLang');
-				if (localLang == 'nl'){
+				if (localLang === 'nl'){
 					langLinkNl.style.backgroundColor = '#eceff1';
 					homeLang.innerHTML = 'Home';
 					servicesLang.innerHTML = 'Onze Diensten';
 				}
-				if (localLang == 'en'){
+				if (localLang === 'en'){
 					langLinkEn.style.backgroundColor = '#eceff1';
 					homeLang.innerHTML = 'Home';
 					servicesLang.innerHTML = 'Our Services';
