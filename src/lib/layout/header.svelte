@@ -4,6 +4,7 @@
 	export let contactActive = '';
 	import { _ } from '../../services/i18n';
 	import { setupI18n } from '../../services/i18n';
+	import { onMount } from 'svelte';
 
 	let localLang = '';
 	let NlActive = '';

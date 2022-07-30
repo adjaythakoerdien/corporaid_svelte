@@ -59,6 +59,9 @@
 	<li id="langEn">
 		<a href="/en" class="black-text sidenav-close">EN</a>
 	</li>
+	<li id="langIt">
+		<a href="/it" class="black-text sidenav-close">IT</a>
+	</li>
 	<!--		<li><a href="/" class="black-text sidenav-close">Klant cases</a></li>-->
 	<li id="contactLink">
 		<a
@@ -81,6 +84,7 @@
 
 			const langLinkNl = document.getElementById('langNl');
 			const langLinkEn = document.getElementById('langEn');
+			const langLinkIt = document.getElementById('langIt');
 
 			const servicesLink = document.getElementById('servicesLink');
 			const homeLink = document.getElementById('homeLink');
@@ -100,6 +104,11 @@
 					langLinkEn.style.backgroundColor = '#eceff1';
 					homeLang.innerHTML = 'Home';
 					servicesLang.innerHTML = 'Our Services';
+				}
+				if (localLang === 'it'){
+					langLinkIt.style.backgroundColor = '#eceff1';
+					homeLang.innerHTML = 'Home';
+					servicesLang.innerHTML = 'I nostri servizi';
 				}
 				console.log(localLang);
 			} catch {
