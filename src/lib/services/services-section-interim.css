@@ -1,11 +1,12 @@
 .services-interim-image {
     background-color: lemonchiffon;
     border-radius: 8px;
-    height: 500px;
+    height: 700px;
     background-image: url("../assets/suit.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 20px;
     /*margin-left: 50px;*/
 }
 

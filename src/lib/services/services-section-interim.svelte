@@ -16,7 +16,10 @@
 				<i class="material-icons" style="font-size:50px;color: #566BB3">groups</i>
 				<h5>{$_('services.interimSection.title')}</h5>
 				<p class="services-column-text">
-					{$_('services.interimSection.text')}
+					{$_('services.interimSection.text1')}
+				</p>
+				<p class="services-column-text">
+					{$_('services.interimSection.text2')}
 				</p>
 				<a
 					href="/contact"

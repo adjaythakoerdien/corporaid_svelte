@@ -8,6 +8,7 @@
 	let localLang = '';
 	let NlActive = '';
 	let EnActive = '';
+	let ItActive = '';
 
 	function setLangNl() {
 		setupI18n({ withLocale: 'nl' });
@@ -38,6 +39,9 @@
 	}
 	if (localLang == 'en') {
 		EnActive = 'active';
+	}
+	if (localLang == 'it') {
+		ItActive = 'active';
 	}
 </script>
 
@@ -71,6 +75,9 @@
 				</li>
 				<li on:click={setLangEn} class="black-text pointer {EnActive}" style="padding: 0 10px">
 					EN
+				</li>
+				<li on:click={setLangIt} class="black-text pointer {ItActive}" style="padding: 0 10px">
+					IT
 				</li>
 				<!--				<li on:click={setLangIt} class="black-text pointer" style="margin-right:15px">IT</li>-->
 
