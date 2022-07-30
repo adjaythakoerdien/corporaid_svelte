@@ -25,18 +25,21 @@
 				</p>
 				<div class="services-column-text" style="display:flex">
 					<div class="letter">-</div>
+					<div style="width:20px;">S</div>
 					<div>
 						{$_('services.financeSection.list1')}
 					</div>
 				</div>
 				<div class="services-column-text" style="display:flex">
 					<div class="letter">-</div>
+					<div style="width:20px;">M</div>
 					<div>
 						{$_('services.financeSection.list2')}
 					</div>
 				</div>
 				<div class="services-column-text" style="display:flex">
 					<div class="letter">-</div>
+					<div style="width:20px;">L</div>
 					<div>
 						{$_('services.financeSection.list3')}
 					</div>
