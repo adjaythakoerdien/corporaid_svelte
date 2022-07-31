@@ -1,5 +1,6 @@
 body,html {
     font-family: 'Mulish';
+    scroll-behavior: smooth;
 }
 
 h1 {

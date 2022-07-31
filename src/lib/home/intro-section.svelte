@@ -26,7 +26,7 @@
 		<div class="row" role="presentation">
 			<div class="column-container col s12 l6" role="presentation">
 				<div class="column-logo" role="presentation">
-					<a href="/services">
+					<a href="/services/#finance">
 						<i
 							class="column-icon material-icons"
 							style="font-size:50px;margin-bottom:20px;font-weight:200"
@@ -36,7 +36,7 @@
 					</a>
 				</div>
 				<div class="column-title">
-					<a href="/services" class="black-text">
+					<a href="/services/#finance" class="black-text">
 						{$_('home.intro.column1.title')}
 					</a>
 				</div>
@@ -45,7 +45,7 @@
 				</div>
 				<div class="column-button hide-on-large-only" role="presentation">
 					<a
-						href="/services"
+						href="/services/#finance"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
@@ -56,7 +56,7 @@
 
 			<div class="column-container col s12 l6" role="presentation">
 				<div class="column-logo" role="presentation">
-					<a href="/services">
+					<a href="/services/#interim">
 						<i
 							class="column-icon material-icons"
 							style="font-size:50px;margin-bottom:20px;font-weight:200">people</i
@@ -64,14 +64,14 @@
 					>
 				</div>
 				<div class="column-title" role="presentation">
-					<a href="/services" class="black-text">{$_('home.intro.column2.title')}</a>
+					<a href="/services/#interim" class="black-text">{$_('home.intro.column2.title')}</a>
 				</div>
 				<div class="column-text" role="presentation">
 					{$_('home.intro.column2.text')}
 				</div>
 				<div class="column-button hide-on-large-only" role="presentation">
 					<a
-						href="/services"
+						href="/services/#interim"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
@@ -86,7 +86,7 @@
 			<div class="col s6">
 				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
 					<a
-						href="/services"
+						href="/services/#finance"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
@@ -97,7 +97,7 @@
 			<div class="col s6" role="presentation">
 				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
 					<a
-						href="/services"
+						href="/services/#interim"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
@@ -111,7 +111,7 @@
 		<div class="row" role="presentation">
 			<div class="column-container col s12 l6" role="presentation">
 				<div class="column-logo" role="presentation">
-					<a href="/services">
+					<a href="/services/#management">
 						<i
 							class="column-icon material-icons"
 							style="font-size:50px;margin-bottom:20px;font-weight:200">event</i
@@ -119,14 +119,14 @@
 					</a>
 				</div>
 				<div class="column-title" role="presentation">
-					<a href="/services" class="black-text">{$_('home.intro.column3.title')}</a>
+					<a href="/services/#management" class="black-text">{$_('home.intro.column3.title')}</a>
 				</div>
 				<div class="column-text" role="presentation">
 					{$_('home.intro.column3.text')}
 				</div>
 				<div class="column-button hide-on-large-only" role="presentation">
 					<a
-						href="/services"
+						href="/services/#management"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
@@ -137,7 +137,7 @@
 
 			<div class="column-container col s12 l6" role="presentation">
 				<div class="column-logo" role="presentation">
-					<a href="/services">
+					<a href="/services/#social">
 						<i
 							class="column-icon material-icons"
 							style="font-size:50px;margin-bottom:20px;font-weight:200"
@@ -147,7 +147,7 @@
 					</a>
 				</div>
 				<div class="column-title" role="presentation">
-					<a href="/services" class="black-text">{$_('home.intro.column4.title')}</a>
+					<a href="/services/#social" class="black-text">{$_('home.intro.column4.title')}</a>
 				</div>
 				<div class="column-text" role="presentation">
 					{$_('home.intro.column4.text')}
@@ -156,7 +156,7 @@
 				</div>
 				<div class="column-button hide-on-large-only" role="presentation">
 					<a
-						href="/services"
+						href="/services/#social"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
@@ -170,7 +170,7 @@
 			<div class="col s6" role="presentation">
 				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
 					<a
-						href="/services"
+						href="/services/#management"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
@@ -181,7 +181,7 @@
 			<div class="col s6" role="presentation">
 				<div class="column-button-bottom hide-on-med-and-down" role="presentation">
 					<a
-						href="/services"
+						href="/services/#social"
 						class="column-button waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>

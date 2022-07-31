@@ -60,13 +60,21 @@
 
 <Intro />
 
-<Sociaal />
+<section id="social">
+	<Sociaal />
+</section>
 
-<Finance />
+<section id="finance">
+	<Finance />
+</section>
 
-<Management />
+<section id="management">
+	<Management />
+</section>
 
-<Interim />
+<section id="interim">
+	<Interim />
+</section>
 
 <Vraag />
 
