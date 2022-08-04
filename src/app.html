@@ -100,23 +100,26 @@
 					homeLang.innerHTML = 'Home';
 					servicesLang.innerHTML = 'Onze Diensten';
 				}
-				if (localLang === 'en'){
+				else if (localLang === 'en'){
 					langLinkEn.style.backgroundColor = '#eceff1';
 					homeLang.innerHTML = 'Home';
 					servicesLang.innerHTML = 'Our Services';
 				}
-				if (localLang === 'it'){
+				else if (localLang === 'it'){
 					langLinkIt.style.backgroundColor = '#eceff1';
 					homeLang.innerHTML = 'Home';
 					servicesLang.innerHTML = 'I Nostri Servizi';
 				}
-				if (!localLang){
+				else if (!localLang){
 					window.navigator.language.split('-')[0]
 					console.log('not found');
 					console.log(window.navigator.language.split('-')[0]);
 					localStorage.setItem('localLang', window.navigator.language.split('-')[0]);
 					location.reload();
 					console.log(`Local lang not found. Reloading with: ${window.navigator.language.split('-')[0]}`);
+				}
+				else {
+					localStorage.setItem('localLang', 'en');
 				}
 				console.log(localLang);
 			} catch {
