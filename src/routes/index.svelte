@@ -11,7 +11,7 @@
 	import Vraag from '$lib/home/home-vraag.svelte';
 	import Footer from '$lib/layout/footer.svelte';
 	let localLang = '';
-
+	//
 	try {
 		localLang = localStorage.getItem('localLang');
 	} catch {

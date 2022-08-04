@@ -77,8 +77,8 @@
 		<div>%sveltekit.body%</div>
 <!--		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
 <script type="text/javascript" src="%sveltekit.assets%/js/materialize.min.js"></script>
-
 		<script>
+			// import { setupI18n } from '../services/i18n';
 			const slide_menu = document.querySelectorAll('.sidenav');
 			M.Sidenav.init(slide_menu,{});
 
@@ -94,7 +94,7 @@
 			const servicesLang = document.getElementById('servicesLang');
 
 			try {
-				localLang = localStorage.getItem('localLang');
+				let localLang = localStorage.getItem('localLang');
 				if (localLang === 'nl'){
 					langLinkNl.style.backgroundColor = '#eceff1';
 					homeLang.innerHTML = 'Home';
@@ -110,10 +110,21 @@
 					homeLang.innerHTML = 'Home';
 					servicesLang.innerHTML = 'I Nostri Servizi';
 				}
+				if (!localLang){
+					window.navigator.language.split('-')[0]
+					console.log('not found');
+					console.log(window.navigator.language.split('-')[0]);
+					localStorage.setItem('localLang', window.navigator.language.split('-')[0]);
+					location.reload();
+					console.log(`Local lang not found. Reloading with: ${window.navigator.language.split('-')[0]}`);
+				}
 				console.log(localLang);
 			} catch {
-				console.log('local lang not found');
+				// console.log('local lang not found');
+				console.log('checking browser language')
 			}
+
+			console.log(window.navigator.language.split('-')[0]);
 
 			document.getElementById('servicesLink').addEventListener('click',()=>{
 				servicesLink.style.backgroundColor = '#eceff1'
