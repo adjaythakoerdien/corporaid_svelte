@@ -134,7 +134,8 @@
 		},
 		"footer": {
 			"kvk": "KvK-nr",
-			"btw": "BTW-id"
+			"btw": "BTW-id",
+			"contact": "Contact"
 		}
 	}
 }

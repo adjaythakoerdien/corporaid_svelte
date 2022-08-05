@@ -14,7 +14,7 @@
 				</p>
 			</div>
 			<div class="col l4 offset-l2 s12">
-				<h5 class="white-text">Contact</h5>
+				<h5 class="white-text">{$_('footer.contact')}</h5>
 				<ul class="footer-contact">
 					<li style="font-weight: bold">CorporAid B.V.</li>
 					<li>

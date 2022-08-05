@@ -134,7 +134,8 @@
 		},
 		"footer": {
 			"kvk": "CdC-num",
-			"btw": "IVA-id"
+			"btw": "IVA-id",
+			"contact": "Contatto"
 		}
 	}
 }

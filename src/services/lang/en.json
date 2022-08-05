@@ -134,7 +134,8 @@
 		},
 		"footer": {
 			"kvk": "CoC-no",
-			"btw": "VAT-id"
+			"btw": "VAT-id",
+			"contact": "Contact"
 		}
 	}
 }
