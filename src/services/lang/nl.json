@@ -129,7 +129,8 @@
 		},
 		"header": {
 			"home": "Home",
-			"services": "Onze Diensten"
+			"services": "Onze Diensten",
+			"contact": "Contact"
 		},
 		"footer": {
 			"kvk": "KvK-nr",

@@ -129,7 +129,8 @@
 		},
 		"header": {
 			"home": "Home",
-			"services": "I Nostri Servizi"
+			"services": "I Nostri Servizi",
+			"contact": "Contatto"
 		},
 		"footer": {
 			"kvk": "CdC-num",

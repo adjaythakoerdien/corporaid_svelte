@@ -129,7 +129,8 @@
 		},
 		"header": {
 			"home": "Home",
-			"services": "Our Services"
+			"services": "Our Services",
+			"contact": "Contact"
 		},
 		"footer": {
 			"kvk": "CoC-no",

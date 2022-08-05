@@ -55,6 +55,7 @@
 	</li>
 	<li id="contactLink">
 		<a
+				id="contactLang"
 				href="/contact"
 				class="waves-effect waves-light btn hoverable deep-orange accent-2 sidenav-close"
 				style="border-radius:34px;">Contact</a
@@ -104,6 +105,7 @@
 
 			const homeLang = document.getElementById('homeLang');
 			const servicesLang = document.getElementById('servicesLang');
+			const contactLang = document.getElementById('contactLang');
 
 			try {
 				let localLang = localStorage.getItem('localLang');
@@ -111,16 +113,19 @@
 					langLinkNl.style.backgroundColor = '#eceff1';
 					homeLang.innerHTML = 'Home';
 					servicesLang.innerHTML = 'Onze Diensten';
+					contactLang.innerHTML = 'Contact';
 				}
 				else if (localLang === 'en'){
 					langLinkEn.style.backgroundColor = '#eceff1';
 					homeLang.innerHTML = 'Home';
 					servicesLang.innerHTML = 'Our Services';
+					contactLang.innerHTML = 'Contact';
 				}
 				else if (localLang === 'it'){
 					langLinkIt.style.backgroundColor = '#eceff1';
 					homeLang.innerHTML = 'Home';
 					servicesLang.innerHTML = 'I Nostri Servizi';
+					contactLang.innerHTML = 'Contatto';
 				}
 				else if (!localLang){
 					window.navigator.language.split('-')[0]

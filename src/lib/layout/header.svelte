@@ -88,7 +88,7 @@
 						class="waves-effect waves-light btn hoverable deep-orange accent-2"
 						style="border-radius:34px;"
 					>
-						Contact
+						{$_('header.contact')}
 					</a>
 				</li>
 			</ul>
