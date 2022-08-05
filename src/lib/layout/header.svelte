@@ -4,7 +4,9 @@
 	export let contactActive = '';
 	import { _ } from '../../services/i18n';
 	import { setupI18n } from '../../services/i18n';
-	import { onMount } from 'svelte';
+	import FlagNl from '../../lib/assets/flagNl.webp';
+	import FlagEn from '../../lib/assets/flagEn.webp';
+	import FlagIt from '../../lib/assets/flagIt.webp';
 
 	let localLang = '';
 	let NlActive = '';
@@ -71,14 +73,14 @@
 				<!--				<li><a href="#" class="black-text">Klant cases</a></li>-->
 			</ul>
 			<ul class="right hide-on-med-and-down header-links">
-				<li on:click={setLangNl} class="black-text pointer {NlActive}" style="padding: 0 10px">
-					NL
+				<li on:click={setLangNl} class="black-text pointer col {NlActive}" style="padding: 0 10px">
+					<img src={FlagNl} alt="flag netherlands" width="20px" />
 				</li>
 				<li on:click={setLangEn} class="black-text pointer {EnActive}" style="padding: 0 10px">
-					EN
+					<img src={FlagEn} alt="flag england" width="20px" />
 				</li>
 				<li on:click={setLangIt} class="black-text pointer {ItActive}" style="padding: 0 10px">
-					IT
+					<img src={FlagIt} alt="flag italy" width="20px" />
 				</li>
 				<!--				<li on:click={setLangIt} class="black-text pointer" style="margin-right:15px">IT</li>-->
 
