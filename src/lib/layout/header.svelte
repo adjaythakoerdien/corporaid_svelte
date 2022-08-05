@@ -4,9 +4,6 @@
 	export let contactActive = '';
 	import { _ } from '../../services/i18n';
 	import { setupI18n } from '../../services/i18n';
-	import FlagNl from '../../lib/assets/flagNl.webp';
-	import FlagEn from '../../lib/assets/flagEn.webp';
-	import FlagIt from '../../lib/assets/flagIt.webp';
 
 	let localLang = '';
 	let NlActive = '';
@@ -74,13 +71,13 @@
 			</ul>
 			<ul class="right hide-on-med-and-down header-links">
 				<li on:click={setLangNl} class="black-text pointer col {NlActive}" style="padding: 0 10px">
-					<img src={FlagNl} alt="flag netherlands" width="20px" />
+					<img src="/flags/flagNl.webp" alt="flag netherlands" width="20px" />
 				</li>
 				<li on:click={setLangEn} class="black-text pointer {EnActive}" style="padding: 0 10px">
-					<img src={FlagEn} alt="flag england" width="20px" />
+					<img src="/flags/flagNl.webp" alt="flag england" width="20px" />
 				</li>
 				<li on:click={setLangIt} class="black-text pointer {ItActive}" style="padding: 0 10px">
-					<img src={FlagIt} alt="flag italy" width="20px" />
+					<img src="/flags/flagNl.webp" alt="flag italy" width="20px" />
 				</li>
 				<!--				<li on:click={setLangIt} class="black-text pointer" style="margin-right:15px">IT</li>-->
 
