@@ -74,10 +74,10 @@
 					<img src="/flags/flagNl.webp" alt="flag netherlands" width="20px" />
 				</li>
 				<li on:click={setLangEn} class="black-text pointer {EnActive}" style="padding: 0 10px">
-					<img src="/flags/flagNl.webp" alt="flag england" width="20px" />
+					<img src="/flags/flagEn.webp" alt="flag england" width="20px" />
 				</li>
 				<li on:click={setLangIt} class="black-text pointer {ItActive}" style="padding: 0 10px">
-					<img src="/flags/flagNl.webp" alt="flag italy" width="20px" />
+					<img src="/flags/flagIt.webp" alt="flag italy" width="20px" />
 				</li>
 				<!--				<li on:click={setLangIt} class="black-text pointer" style="margin-right:15px">IT</li>-->
 
