@@ -26,6 +26,7 @@
 					</li>
 					<li class="grey-text text-lighten-3">{$_('footer.kvk')}: 86947214</li>
 					<li class="grey-text text-lighten-3">{$_('footer.btw')}: NL864155335B01</li>
+					<li class="grey-text text-lighten-3">IBAN: NL44 INGB 0397 9358 11</li>
 					<!--					<li><a class="grey-text text-lighten-3" href="#!">Ergens In Uithoorn 101</a></li>-->
 					<!--					<li><a class="grey-text text-lighten-3" href="#!">Uithoorn</a></li>-->
 				</ul>

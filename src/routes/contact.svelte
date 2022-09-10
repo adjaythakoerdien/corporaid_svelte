@@ -132,9 +132,9 @@
 							</button>
 						</div>
 					</div>
-					<article class="center">
+					<article class="center container" style="margin-bottom: 30px;">
 						<h6>{$_('privacy.title')}</h6>
-						<p><small>{$_('privacy.text')}</p>
+						<p><small>{$_('privacy.text')}</small></p>
 					</article>
 				</form>
 
