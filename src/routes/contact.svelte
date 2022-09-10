@@ -132,7 +132,12 @@
 							</button>
 						</div>
 					</div>
+					<article class="center">
+						<h6>{$_('privacy.title')}</h6>
+						<p><small>{$_('privacy.text')}</p>
+					</article>
 				</form>
+
 			{/if}
 			{#if resStatus == 200}
 				<div class="row">

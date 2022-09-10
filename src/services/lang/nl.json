@@ -58,6 +58,9 @@
 			}
 		},
 		"services": {
+			"tab": {
+				"title": "Onze Diensten"
+			},
 			"hero": {
 				"title": "Onze Diensten",
 				"subtitle": "Benieuwd naar wat wij voor jou kunnen betekenen?",
@@ -126,6 +129,10 @@
 				"question": "Stel hier je vraag",
 				"button": "Stuur email"
 			}
+		},
+		"privacy": {
+			"title": "Wij respecteren jouw privacy! ",
+			"text": "De verstrekte gegevens zullen op geen enkele wijze aan derden worden gedeeld, doorgegeven of doorverkocht, en zullen intern door CorporAid B.V. uitsluitend worden gebruikt ter beantwoording van de gestuurde email (door op “STUUR EMAIL” te klikken meld je je niet aan voor een nieuwsbrief of andere periodieke mailing). Op eerste verzoek zal alle persoonlijke data worden verwijderd."
 		},
 		"header": {
 			"home": "Home",

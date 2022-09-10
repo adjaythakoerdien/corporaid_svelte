@@ -58,6 +58,9 @@
 			}
 		},
 		"services": {
+			"tab": {
+				"title": "Services"
+			},
 			"hero": {
 				"title": "OUR SERVICES",
 				"subtitle": "Curious about what we can do for you?",
@@ -126,6 +129,10 @@
 				"question": "Type your question here",
 				"button": "Send email"
 			}
+		},
+		"privacy": {
+			"title": "We respect your privacy!",
+			"text": "The information provided will in no way be shared, passed on or sold to third parties, and will be processed internally by CorporAid B.V. only to answer the sent email (By pressing “SEND EMAIL” you do not sign up for a newsletter or other periodic mailing). Upon first request, all personal data will be deleted."
 		},
 		"header": {
 			"home": "Home",

@@ -58,6 +58,9 @@
 			}
 		},
 		"services": {
+			"tab": {
+				"title": "Services"
+			},
 			"hero": {
 				"title": "I NOSTRI SERVIZI",
 				"subtitle": "Curioso di sapere cosa possiamo fare per te?",
@@ -127,6 +130,10 @@
 				"button": "INVIA UNA EMAIL"
 			}
 		},
+		"privacy": {
+			"title": "Rispettiamo la tua privacy!",
+			"text": "Le informazioni fornite non saranno in alcun modo condivise, cedute o vendute a terzi, e saranno trattate internamente da CorporAid B.V. solo per rispondere all'e-mail inviata (Premendo “INVIA EMAIL” non ci si iscrive a newsletter o altri periodici mailing). Alla prima richiesta, tutti i dati personali saranno cancellati."
+			},
 		"header": {
 			"home": "Home",
 			"services": "I Nostri Servizi",

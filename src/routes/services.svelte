@@ -28,7 +28,7 @@
 </script>
 
 <svelte:head>
-	<title>CorporAid - Onze diensten</title>
+	<title>CorporAid - 	{$_('services.tab.title')}</title>
 	<meta
 		NAME="description"
 		CONTENT="Fresh Finance Perspective: Op zoek naar interim controller of CFO professionals? Wij brengen je finance naar the next level!"
