@@ -35,7 +35,7 @@
 	</section>
 	<section class="footer-copyright">
 		<article class="container">
-			© 2022 Copyright CorporAid B.V.
+			© 2023 Copyright CorporAid B.V.
 			<i class="material-icons right" style="font-size:22px;margin-left:0px;color:white;"
 				>open_in_new</i
 			>

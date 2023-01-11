@@ -6,9 +6,11 @@
 	<article class="container carousel-container center">
 		<h2 class="carousel-title">{$_('home.logosSectie.title')}</h2>
 		<div class="logos-container" role="presentation">
+			<img class="carousel-logo" src="/logos/rijksoverheid.webp" alt="Rijksoverheid logo" />
 			<img class="carousel-logo" src="/logos/nyerode.webp" alt="Nyenrode logo" />
 			<img class="carousel-logo" src="/logos/dgb.webp" alt="DGB Group logo" />
 			<img class="carousel-logo" src="/logos/kroonenberg.webp" alt="Kroonenberg Groep logo" />
+			<img class="carousel-logo" src="/logos/e-flight.webp" alt="E-Flight logo" />
 			<img
 				class="carousel-logo"
 				src="/logos/rappange.webp"
